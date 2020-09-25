@@ -1,4 +1,8 @@
 // "static void main" must be defined in a public class.
+/*本文件名字为ClassExample.java
+因此只允许ClassExample这个类为公开的，用public修饰
+本文件还包括了两个类Employee和Pos，都没有使用public修饰
+*/
 class Employee{
    String name;
    int age;
@@ -41,7 +45,6 @@ class Pos{
 }
 public class ClassExample {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         Employee a=new Employee("SangLongLong");
         a.empSalary(102020);
         a.empAge(22);
