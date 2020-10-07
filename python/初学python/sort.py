@@ -1,4 +1,5 @@
 import functools
+import random
 class node:
     def __init__(self,a,b):
         self.a=a
