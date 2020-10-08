@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <iostream>
+#include <queue>
 #include <unordered_map>
 using namespace std;
 /*
@@ -28,47 +29,9 @@ bool mul;
 struct node{
     ll k;
     bool mul;
-    node* next;
-    node(ll _k,bool _mul): k(_k),next(NULL),mul(_mul){}
-};
-class myqueue{
-    private:
-        node* head=NULL;
-        int siz=0;
-    public:
-    int size(){
-        return siz;
-    }
-    void push(ll k,bool mul){
-        if(head==NULL){
-            head=new node(k,mul);
-            head->next=head;
-        }else{
-            node* temp;
-            temp=head->next;
-            head->next=new node(k,mul);
-            head->next->next=temp;
-            head=head->next;
-        }
-        siz++;
-    }
-    void pop(){
-        if(head->next==head){
-            delete head;
-            head=NULL;
-        }else{
-            node* temp=head->next;
-            head->next=head->next->next;
-            delete temp;
-        }
-        siz--;
-    }
-    node* front(){
-        return head->next;
-    }
 };
 
-myqueue tag[N*4];
+unordered_map<int,queue<node>> tag;
 
 void build(int pos,int left,int right){
     if(left==right){
@@ -84,17 +47,18 @@ void build(int pos,int left,int right){
 void assign(int pos,int left,int right){
     int mid=(left+right)/2;
     while(tag[pos].size()){
-        if(mid!=left) tag[pos*2].push(tag[pos].front()->k,tag[pos].front()->mul);
-        if(mid+1!=right) tag[pos*2+1].push(tag[pos].front()->k,tag[pos].front()->mul);
-        if(tag[pos].front()->mul){
-            dp[pos*2]*=tag[pos].front()->k;
-            dp[pos*2+1]*=tag[pos].front()->k;
+        if(mid!=left) tag[pos*2].push({tag[pos].front()});
+        if(mid+1!=right) tag[pos*2+1].push({tag[pos].front()});
+        if(tag[pos].front().mul){
+            dp[pos*2]*=tag[pos].front().k;
+            dp[pos*2+1]*=tag[pos].front().k;
         }else{
-            dp[pos*2]+=(ll)(mid-left+1)*tag[pos].front()->k;
-            dp[pos*2+1]+=(ll)(right-mid)*tag[pos].front()->k;
+            dp[pos*2]+=(ll)(mid-left+1)*tag[pos].front().k;
+            dp[pos*2+1]+=(ll)(right-mid)*tag[pos].front().k;
         }
         tag[pos].pop();
     }
+    tag.erase(pos);
 }
 void update(int pos,int left,int right){
     if(lower<=left && right<=upper){
@@ -103,11 +67,11 @@ void update(int pos,int left,int right){
         }else{
             dp[pos]+=(ll)(right-left+1)*k;
         }
-        if(left!=right) tag[pos].push(k,mul);
+        if(left!=right) tag[pos].push({k,mul});
         return;
     }
     int mid=(left+right)/2;
-    if(tag[pos].size()) assign(pos,left,right);
+    if(tag.find(pos)!=tag.end()) assign(pos,left,right);
     if(lower<=mid) update(pos*2,left,mid);
     if(upper>mid) update(pos*2+1,mid+1,right);
     dp[pos]=dp[pos*2]+dp[pos*2+1];
@@ -117,15 +81,13 @@ ll getsum(int pos,int left,int right){
         return dp[pos];
     }
     int mid=(left+right)/2;
-    if(tag[pos].size()) assign(pos,left,right);
+    if(tag.find(pos)!=tag.end()) assign(pos,left,right);
     ll ans=0;
     if(lower<=mid) ans+=getsum(pos*2,left,mid);
     if(upper>mid) ans+=getsum(pos*2+1,mid+1,right);
     return ans;
 }
 int main(){
-    freopen("G:\\Life_of_XDU\\P3373_2.in","r",stdin);
-    freopen("G:\\Life_of_XDU\\P3373_2.out","r",stdout);
     scanf("%d %d %lld\n",&n,&m,&q);
     for(int i=1;i<=n;i++) scanf("%lld",arr+i);
     build(1,1,n);
