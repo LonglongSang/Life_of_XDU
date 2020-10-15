@@ -3,27 +3,34 @@
 #include <stdio.h>
 #include <vector>
 #include <queue>
+#include <regex>
 using namespace  std;
 int r,c,l,t;
 bool arr[60][1286][128];
-char temp;
+int temp;
 struct node{
     int x,y,z;
 };
 int main(){
+    freopen("G:\\Life_of_XDU\\data3.in","r",stdin);
+    freopen("G:\\Life_of_XDU\\OUT3.txt","w",stdout);
     scanf("%d %d %d %d\n",&r,&c,&l,&t);
     //cout<<r<<c<<l<<t<<endl;
+    int pp=0;
     for(int k=0;k<l;k++){
         for(int i=0;i<r;i++){
             for(int j=0;j<c;j++){
-                scanf("%c",&temp);
-                getchar();
-                cout<<temp<<" ";
-                arr[l][i][j]= temp=='1' ? true:false;
+                scanf("%d",&temp);
+                //cout<<temp<<" ";
+                arr[k][i][j]= temp==1 ? true:false;
+                //if(temp=='\n') cout<<"a new line"<<endl;
+                //if(temp=='1') pp++;
             }
-            cout<<endl;
+            //printf("\n");
+            //cout<<endl;
         }
     }
+    //cout<<"total is"<<p p<<endl;
     queue<node>Q;
     int dir[6][3]={1,0,0,-1,0,0,0,1,0,0,-1,0,0,0,1,0,0,-1};
     int ans=0;
@@ -48,7 +55,7 @@ int main(){
                         cnt++;
                     }
                 }
-                cout<<cnt<<endl;
+                //cout<<cnt<<endl;
                 if(cnt>=t) ans+=cnt;
             }
         }
