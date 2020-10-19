@@ -127,6 +127,7 @@ struct node{
 	}
 };
 class linkstack{
+	//链栈
     struct mynode{
         int x, y , i;
         mynode* next;
