@@ -26,70 +26,10 @@ bool vis[N][N];
 //访问标记
 char path[N][N];
 //路径记录
-
-void pri(int i);
-
-struct node{
-	int x, y , i;
-    //x,y表示坐标
-    //i表示要递归哪个方向，初始i为1
-    //当i为5的时候表示4个方向已经递归过
-    node(){
-        
-    }
-	node(int x, int y, int i){
-		this->x = x;
-		this->y = y;
-        this->i = i;
-	}   
-};
+class linkstack;
 //链栈
-template <class T>
-class linkstack{
-    struct mynode{
-        T a;
-        mynode* next;
-        mynode(T &a){
-            this->a=a;
-            next=NULL;
-        }
-    };
-    private:
-	    int mysize;
-        mynode* head;
-	public:
-        linkstack(){
-            mysize = 0;
-            head = NULL;
-        }
-        void push(T &a){
-            mynode* temp = new mynode(a);
-            mysize++;
-            if(head == NULL){
-                head = temp;
-            }else{
-                temp->next = head;
-                head = temp;
-            }
-        }
-        T top(){
-            return head->a;
-        }
-        void pop(){
-            if(!head) return;
-            mynode* temp = head->next;
-            delete head;
-            head = temp;
-            mysize--;
-        }
-        int size(){
-            return mysize;
-        }
-        bool empty(){
-            return mysize == 0;
-        }    
-};
-
+struct node;
+void pri(int i);
 
 
 
@@ -110,7 +50,7 @@ int main(){
         printf("end\n");
         return 0;
     }
-    linkstack<node> S;
+    linkstack S;
     //声明链栈
     node cur(0, 0, 1);
     S.push(cur);
@@ -175,6 +115,68 @@ void pri(int i){
     else if(i == 3) printf("up\n");
     else printf("left\n");
 }
+struct node{
+	int x, y , i;
+    //x,y表示坐标
+    //i表示要递归哪个方向，初始i为1
+    //当i为5的时候表示4个方向已经递归过
+	node(int x, int y, int i){
+		this->x = x;
+		this->y = y;
+        this->i = i;
+	}
+};
+class linkstack{
+	//链栈
+    struct mynode{
+        int x, y , i;
+        mynode* next;
+        mynode(int x, int y, int i){
+            this->x = x;
+            this->y = y;
+            this->i = i;
+            this->next = NULL;
+        }
+        mynode(const node& a){
+            mynode(a.x, a.y, a.i);
+        }
+    };
+    private:
+	    int mysize;
+        mynode* head;
+	public:
+        linkstack(){
+            mysize = 0;
+            head = NULL;
+        }
+        void push(node& a){
+            mynode* temp = new mynode(a.x, a.y, a.i);
+            mysize++;
+            if(head == NULL){
+                head = temp;
+            }else{
+                temp->next = head;
+                head = temp;
+            }
+        }
+        node top(){
+            node ret(head->x, head->y, head->i);
+            return ret;
+        }
+        void pop(){
+            if(!head) return;
+            mynode* temp = head->next;
+            delete head;
+            head = temp;
+            mysize--;
+        }
+        int size(){
+            return mysize;
+        }
+        bool empty(){
+            return mysize == 0;
+        }
+};
 //4、迷宫问题 结束
 
 
