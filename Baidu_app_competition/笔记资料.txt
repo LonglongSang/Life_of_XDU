@@ -1,0 +1,376 @@
+http://map.yanue.net/
+经纬度查询
+地点 经度longitude 维度latitude
+西安电子科技大学
+108.840053
+34.129522
+西安钟楼
+108.95346
+34.265725
+西安大雁塔北广场
+108.971152
+34.225619
+大唐不夜城
+108.970556
+34.220781
+
+
+数据-
+活动海报图 photo_src
+活动名称 activity
+活动地点 position
+活动标签 label
+活动时间 time
+报名截止时间 endTime
+活动勋章 model
+联系方式 contactInfo
+活动小贴士 note
+
+活动地点 position
+经度longitude
+维度latitude
+
+路线-各个地点
+
+用户-
+头像 photo_src
+名字 myName
+经验 
+等级 grade
+收藏
+消息
+勋章
+游记
+路线
+
+
+// 服务器存储数据
+position: [
+	{
+		posititon_name: "西安电子科技大学",
+		longitude: 108.840053,
+		latitude: 34.129522,
+	},{
+		posititon_name: "西安钟楼",
+		longitude: 108.95346,
+		latitude: 34.265725,
+	},{
+		posititon_name: "西安大雁塔北广场",
+		longitude: 108.971152,
+		latitude: 34.225619,
+	},{
+		posititon_name: "大唐不夜城",
+		longitude: 108.970556,
+		latitude: 34.220781,
+	},{
+		posititon_name: "西安市长安区西安外国语大学(长安校区)",
+		longitude: 108.882621,
+		latitude: 34.141489,
+	},{
+		posititon_name: "西安市雁塔区陕西历史博物馆",
+		longitude: 108.961495,
+		latitude: 34.230523,
+	},{
+		posititon_name: "西安市莲湖区回民街",
+		longitude: 108.939053,
+		latitude: 34.274071,
+	},{
+		posititon_name: "西安市碑林区西安城墙",
+		longitude: 108.954666,
+		latitude: 34.257907,
+	},{
+		posititon_name: "西安市临潼区华清宫",
+		longitude: 109.221619,
+		latitude: 34.364034,
+	}
+]
+activity: [
+	{		
+		photo_src: '/images/activities/timg.jpg',
+		activity_name: '西安文化熏陶',
+		temp_tag: '情怀，文化',
+		start_data: '2020年11月6日',
+		end_data: '2020年11月9日',
+		duration: '一天',
+		activity_medal: '',
+		info: '西安电子科技大学，和新中国一起成长的大学！'
+		sponsor: '',
+		positions: [
+			{
+				posititon_name: "西安电子科技大学",
+				longitude: 108.840053,
+				latitude: 34.129522,
+			},{
+				posititon_name: "西安钟楼",
+				longitude: 108.95346,
+				latitude: 34.265725,
+			},{
+				posititon_name: "西安大雁塔北广场",
+				longitude: 108.971152,
+				latitude: 34.225619,
+			}
+		]
+		
+	},
+	{		
+		photo_src: '/images/activities/timg.jpg',
+		activity_name: '西安一日游',
+		label: '小吃，美食',
+		start_data: '2020年10月26日',
+		end_data: '2020年11月13日',
+		duration: '半天',
+		activity_medal: '',
+		info: '强烈推荐古街烧烤摊，但距离偏僻，夜间可以选择删除该点哦',
+		sponsor: '',
+		positions: [
+			{
+				posititon_name: "大唐不夜城",
+				longitude: 108.970556,
+				latitude: 34.220781,
+			},{
+				posititon_name: "西安市长安区西安外国语大学(长安校区)",
+				longitude: 108.882621,
+				latitude: 34.141489,
+			},{
+				posititon_name: "西安市雁塔区陕西历史博物馆",
+				longitude: 108.961495,
+				latitude: 34.230523,
+			}
+		]
+		
+	},
+	{		
+		photo_src: '/images/activities/timg.jpg',
+		activity_name: '西安穷游',
+		label: '小吃，美食',
+		start_data: '2020年12月4日',
+		end_data: '2020年12月9日',
+		duration: '四小时',
+		activity_medal: '',
+		info: '一睹古城墙，历史沧桑感',
+		sponsor: '',
+		positions: [
+			{
+				posititon_name: "西安市莲湖区回民街",
+				longitude: 108.939053,
+				latitude: 34.274071,
+			},{
+				posititon_name: "西安市碑林区西安城墙",
+				longitude: 108.954666,
+				latitude: 34.257907,
+			},{
+				posititon_name: "西安市临潼区华清宫",
+				longitude: 109.221619,
+				latitude: 34.364034,
+			}
+		]
+		
+	},
+]
+
+medal: [
+	{
+		medal_id: 1,
+		name: '经验白板勋章',
+		image_src: 'https://localhost:8080/medal.png',
+		introduction:'初来乍到，第一次参加活动的证明'
+	},{
+		medal_id: 2,
+		name: '经验绿板勋章',
+		image_src: 'https://localhost:8080/medal1.png',
+		introduction: '小有名气，参加过数次活动'
+	},{
+		medal_id: 3,
+		name: '经验黄板勋章',
+		image_src: 'https://localhost:8080/medal1.png',
+		introduction: '出行大师，逐步攀越巅峰'
+	}
+]
+
+User: [
+	{
+		user_name: '徒步'
+		experience: 100,
+		phone_number: 15273195908,
+		user_src: '/images/activities/timg.jpg',
+	},{
+		user_name: 'Lichit'
+		experience: 1500,
+		phone_number: 15273195008
+		user_src: '/images/activities/timg.jpg',
+	},{
+		user_name: 'lux'
+		experience: 200,
+		phone_number: 25273195008,	
+		user_src: '/images/activities/timg.jpg',	
+	}
+]
+
+travelnotes:[
+    {
+        user:"lux",
+        site:"大唐不夜城",
+		diary_name: "不夜夜",
+		publish_data: "2020.10.9",
+		is_public: true,
+        photo_src:'/images/travelnotes/nonightcity.jpg',        
+		comments:"大唐不夜城采用了大量夜间灯光景致，一到夜晚时是金碧辉煌,富有盛唐繁华气象!位于中轴线上的玄奘斗雕像,大雁塔A遗址,两边特色街区上也各有--代帝王，历史人物为主题的雕塑,顶屋设计均为重檐歇山，恢弘气派!免费参观,夜晚会有音乐喷泉蟹，街区特色表演等。推荐:主题雕塑开元广场玄奘广场大雁塔水舞光影秀。",
+        favorites: 10,
+        collections:5,
+
+    },
+    {
+        user: "Lictch",
+        site:"西安市莲湖区回民街",
+		diary_name: "回民街我来也",
+		publish_data: "2020.11.3",
+		is_public: true,
+        photo_src:'/images/travelnotes/furongpark.jpg',        comments:"西安市莲湖区回民街-大唐芙蓉园是根据唐朝的芙蓉园修建的，白天的芙蓉园是大唐的后花园，晚上芙蓉园里灯火璀璨，景色万千。芙蓉园里不仅有《梦回大唐的表演》，而且还有灯光秀，芙蓉园一夜，让你的夜晚拥有不同的颜色与芬芳，毕生难忘。",
+        favorites: 8,
+        collections:3,
+    },
+    {
+        user: "lux",
+        site: "西安市碑林区西安城墙",
+		diary_name: "背背碑",
+		publish_data: "2020.10.9",
+		is_public: true,
+        photo_src:'/images/travelnotes/townwall.jpg',        comments:"夜晚登上明城墙，在墨蓝的夜色中，可一览西安这座城市的全景，在城墙上俯瞰西安，又是另外一番美景了，城墙上的西安，美丽又安静，灯火影影绰绰，风轻轻的吹动着城墙下的树木，站在城墙之上，仿佛你就是守城的士兵，守望着这一方城池，这时你又会想到什么呢？",
+        favorites: 6,
+        collections:3,
+    },
+    {
+        user: "Lichit",
+        site:"西安钟楼",
+		diary_name: "钟声渐进",
+		publish_data: "2020.10.9",
+		is_public: true,
+        photo_src:'/images/travelnotes/damingpalaza.jpg',        comments:"西安钟楼-大明宫占地很广,换完票后首先去的是丹凤门博物馆,里面还有视频，但有时段播出，用光和声音,画面，再现了1400多年前的大唐盛世，真的不错,现实这里只剩土堆了看完博物馆,就再到遗址的核心部分，其实都是各种土堆，只能结合介绍,还有想像,一千多年前这里曾经拥有的繁华，太久了,能留下来的东西不多，残存的,总是这么的孤独，这样的建筑就如此被毁掉,很沉重。当然可以透过微缩景观加强了解的，不能进去，只能在外围拍照,但造得很精细,不错的。当然这里也有大明宫的博物馆,但东西不算多，逛一逛.就可以。",
+        favorites:4,
+        collections:2,
+
+    },
+    {
+        user: "Lichit",
+        site:"西安大雁塔北广场",
+		diary_name: "雁过留痕",
+		publish_data: "2020.10.9",
+		is_public: true,
+        photo_src:/images/travelnotes/btower.jpg',
+        comments:" 大雁塔是楼阁式砖塔，塔身呈方形锥体，具有中国传统建筑艺术的风格。塔高64米，共七层，塔身用砖砌成，内有楼梯盘旋而上。每层四面各有一个拱券门洞，凭栏远眺，长安风貌尽收眼底。塔的底层四面皆有石门，门楣上有精美的线刻佛像，相传出自唐代大画家阎立本的手笔。塔底层南门两边立有碑石。",
+        favorites:3,
+        comments:1,
+    }
+]
+
+// 后端查找后，返回给前端的数据
+user: {
+	user_name: '徒步',
+	experience: 100,
+	phone_number: 15273195908,
+	user_src: '/images/activities/timg.jpg',
+	medal: [
+		{
+			medal_id: 1,
+			name: '经验白板勋章',
+			image_src: 'https://localhost:8080/medal.png',
+			introduction:'初来乍到，第一次参加活动的证明'
+		}
+	],
+	travelnotes:[
+	
+	]
+}
+user: {
+	user_name: 'Lichit',
+	experience: 1500,
+	phone_number: 15273195008,
+	user_src: '/images/activities/timg.jpg',
+	medal: [
+		{
+			medal_id: 1,
+			name: '经验白板勋章',
+			image_src: 'https://localhost:8080/medal.png',
+			introduction:'初来乍到，第一次参加活动的证明'
+		}{
+			medal_id: 2,
+			name: '经验绿板勋章',
+			image_src: 'https://localhost:8080/medal1.png',
+			introduction: '小有名气，参加过数次活动'
+		},
+	],
+	travelnotes: [
+		{
+			user: "Lictch",
+			site:"西安市莲湖区回民街",
+			diary_name: "回民街我来也",
+			publish_data: "2020.11.3",
+			is_public: true,
+			photo_src:'/images/travelnotes/furongpark.jpg',        comments:"西安市莲湖区回民街-大唐芙蓉园是根据唐朝的芙蓉园修建的，白天的芙蓉园是大唐的后花园，晚上芙蓉园里灯火璀璨，景色万千。芙蓉园里不仅有《梦回大唐的表演》，而且还有灯光秀，芙蓉园一夜，让你的夜晚拥有不同的颜色与芬芳，毕生难忘。",
+			favorites: 8,
+			collections:3,
+		},
+		{
+			site:"西安钟楼",
+			diary_name: "钟声渐进",
+			publish_data: "2020.10.9",
+			is_public: true,
+			photo_src:'/images/travelnotes/damingpalaza.jpg',        comments:"西安钟楼-大明宫占地很广,换完票后首先去的是丹凤门博物馆,里面还有视频，但有时段播出，用光和声音,画面，再现了1400多年前的大唐盛世，真的不错,现实这里只剩土堆了看完博物馆,就再到遗址的核心部分，其实都是各种土堆，只能结合介绍,还有想像,一千多年前这里曾经拥有的繁华，太久了,能留下来的东西不多，残存的,总是这么的孤独，这样的建筑就如此被毁掉,很沉重。当然可以透过微缩景观加强了解的，不能进去，只能在外围拍照,但造得很精细,不错的。当然这里也有大明宫的博物馆,但东西不算多，逛一逛.就可以。",
+			favorites:4,
+			collections:2,
+
+		},
+		{
+			site:"西安大雁塔北广场",
+			diary_name: "雁过留痕",
+			publish_data: "2020.10.9",
+			is_public: true,
+			photo_src:/images/travelnotes/btower.jpg',
+			comments:" 大雁塔是楼阁式砖塔，塔身呈方形锥体，具有中国传统建筑艺术的风格。塔高64米，共七层，塔身用砖砌成，内有楼梯盘旋而上。每层四面各有一个拱券门洞，凭栏远眺，长安风貌尽收眼底。塔的底层四面皆有石门，门楣上有精美的线刻佛像，相传出自唐代大画家阎立本的手笔。塔底层南门两边立有碑石。",
+			favorites:3,
+			comments:1,
+		}
+	]
+	
+}
+user: {
+	user_name: 'lux',
+	experience: 200,
+	phone_number: 25273195008,
+	user_src: '/images/activities/timg.jpg',
+	medal: [
+		{
+			medal_id: 1,
+			name: '经验白板勋章',
+			image_src: 'https://localhost:8080/medal.png',
+			introduction:'初来乍到，第一次参加活动的证明'
+		}
+	],
+	travelnotes: [		
+		{
+			site:"大唐不夜城",
+			diary_name: "不夜夜",
+			publish_data: "2020.10.9",
+			is_public: true,
+			photo_src:'/images/travelnotes/nonightcity.jpg',        
+			comments:"大唐不夜城采用了大量夜间灯光景致，一到夜晚时是金碧辉煌,富有盛唐繁华气象!位于中轴线上的玄奘斗雕像,大雁塔A遗址,两边特色街区上也各有--代帝王，历史人物为主题的雕塑,顶屋设计均为重檐歇山，恢弘气派!免费参观,夜晚会有音乐喷泉蟹，街区特色表演等。推荐:主题雕塑开元广场玄奘广场大雁塔水舞光影秀。",
+			favorites: 10,
+			collections:5,
+
+		},{
+			site: "西安市碑林区西安城墙",
+			diary_name: "背背碑",
+			publish_data: "2020.10.9",
+			is_public: true,
+			photo_src:'/images/travelnotes/townwall.jpg',        comments:"夜晚登上明城墙，在墨蓝的夜色中，可一览西安这座城市的全景，在城墙上俯瞰西安，又是另外一番美景了，城墙上的西安，美丽又安静，灯火影影绰绰，风轻轻的吹动着城墙下的树木，站在城墙之上，仿佛你就是守城的士兵，守望着这一方城池，这时你又会想到什么呢？",
+			favorites: 6,
+			collections:3,
+		},
+		
+	]
+}
+
+
+
+
+
