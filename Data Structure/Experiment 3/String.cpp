@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 #include "String.h"
 //#######构造函数区########
 //构造函数1：
@@ -50,13 +51,14 @@ String::String(char* b){
 }
 //构造函数6：
 //将字符串初初始化为String:b
-String::String(String& b){
-	length = b.StrLength();
-	size = length+add;
-	arr = (char*)malloc(sizeof(char)*size);
-	for(int i = 0; i < length; i++) arr[i] = b[i];
-	arr[length] = 0;
+String::String(const String& b){
+	length=b.length;
+	size=b.size;
+	arr=b.arr;
+	add=b.add;
 }
+
+
 
 //######辅助函数区##########
 
@@ -71,8 +73,6 @@ int String::strlen(const char* a){
     while(*a) a++,cnt++;
     return cnt;
 }
-
-
 
 //动态扩容函数：
 //如果当前字符串的大小
@@ -111,18 +111,32 @@ char* String::c_str(){
 	return arr;
 }
 //返回字符串的指针，用于输出
-char* String::data(){
+char* String::data()const{
 	return arr;
 }
-//重载[]，能够通过下标访问字符
-char& String::operator[](int index){
+//重载[]、>、<、>=、<=、==
+char& String::operator[](int index)const{
 	return arr[index];
 }
-
+bool String::operator ==(const String& b)const{
+	return StrCmp(b)==0;
+}
+bool String::operator <(const String& b)const{
+	return StrCmp(b)==-1;
+}
+bool String::operator <=(const String& b)const{
+	return StrCmp(b)<=0;
+}
+bool String::operator >(const String& b)const{
+	return StrCmp(b)==1;
+}
+bool String::operator >=(const String& b)const{
+	return StrCmp(b)>=0;
+}
 
 //#######功能区#########
 //1、长度函数:
-int String::StrLength(){//1
+int String::StrLength()const{//1
 	return length;
 }
 
@@ -138,25 +152,9 @@ void String::StrAssign(char* b, int len){
 void String::StrAssign(char* b){
 	StrAssign(b, strlen(b));
 }
-void String::StrAssign(String & b){//2
+void String::StrAssign(const String & b){//2
 	StrAssign(b.data(), b.StrLength());
 }
-//以下三个函数对符号=进行了重载
-//使String使用=进行一般的赋值
-//可接受的字符串类型：String,char*,const char*
-String& String::operator =(String &b){
-	StrAssign(b);
-	return *this;
-}
-String& String::operator =(const char* b){
-	StrAssign((char*)b);
-	return *this;
-}
-String& String::operator =(char* b){
-	StrAssign(b);
-	return *this;
-}		
-
 
 //3、StrConcat函数：
 //可接受的字符串类型:
@@ -173,7 +171,7 @@ void String::StrConcat(char* b){
 void String::StrConcat(const char* b){
 	StrConcat((char*)b, strlen(b));
 }
-void String::StrConcat(String &b){
+void String::StrConcat(const String &b){
 	StrConcat(b.data(), b.StrLength());
 }
 
@@ -187,7 +185,6 @@ String String::Substr(int i, int j){
 	return ret;
 }
 
-
 //5：StrCmp函数：
 //可接受的字符串类型：String,char*
 //用法：
@@ -195,7 +192,7 @@ String String::Substr(int i, int j){
 //a.StrCmp(b),a.StrCmp(c)
 //比较a与b的大小，比较a与c的大小
 //a>b则返回1，a=b返回0，a<b返回-1
-int String::StrCmp(char* b){
+int String::StrCmp(char* b)const{
 	char* a = arr;
 	while(*a && *b && *a == *b) a++, b++;
 	if(*a == 0 && *b == 0) return 0;
@@ -204,10 +201,9 @@ int String::StrCmp(char* b){
 	if(*a > *b) return 1;
 	else return -1;
 }
-int String::StrCmp(String &str){
+int String::StrCmp(const String &str)const{
 	return StrCmp(str.data());
 }
-
 
 //6:StrIndex函数：
 //可接受的类型：String,char*
@@ -231,13 +227,19 @@ int String::StrIndex(char* b, int offset){
 	return -1;
 }
 int String::StrIndex(char* b){
-	return StrIndex(b, strlen(b));
+	return StrIndex(b, 0);
 }
 int String::StrIndex(const char* b){
-	return StrIndex((char*)b, strlen(b));
+	return StrIndex((char*)b, 0);
 }
-int String::StrIndex(String& str){
+int String::StrIndex(const String& str){
 	return StrIndex(str.data(), 0);
+}
+int String::StrIndex(const char* b, int index){
+	return StrIndex((char*)b, index);
+}
+int String::StrIndex(const String& str, int index){
+	return StrIndex(str.data(), index);
 }
 
 //7、StrInsert函数：
@@ -261,11 +263,9 @@ void String::StrInsert(char* str,int index,int offset){
 void String::StrInsert(char* str, int index){
 	StrInsert(str, index, strlen(str));
 }		
-void String::StrInsert(String &str, int index){
+void String::StrInsert(const String &str, int index){
 	StrInsert(str.data(), index, str.StrLength());
 }
-
-
 
 //8、StrDelete函数:
 //用法：
@@ -302,12 +302,12 @@ void String::StrRep(char* a, char* b){
 		index = StrIndex(a, offset);
 	}
 }
-void String::StrRep(String &t, char* r){
+void String::StrRep(const String &t, char* r){
 	StrRep(t.data(), r);
 }
-void String::StrRep(char* t, String& r){
+void String::StrRep(char* t, const String& r){
 	StrRep(t, r.data());
 }
-void String::StrRep(String &t, String&r){
+void String::StrRep(const String &t, const String&r){
 	StrRep(t.data(), r.data());
 }

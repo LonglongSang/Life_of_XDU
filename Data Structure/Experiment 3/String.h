@@ -1,6 +1,5 @@
 #ifndef String_H
 #define String_H
-
 //你的代码写在这里
 class String{
 	private:
@@ -34,14 +33,14 @@ class String{
 
 		//构造函数6：
 		//将字符串初初始化为String:b
-		String(String& b);
+		String(const String& b);
 
 		//######辅助函数区##########
 
 		//字符串长度函数
 		int strlen(char* a);
 		int strlen(const char* a);
-
+		
 		//动态扩容函数：
 		//如果当前字符串的大小
 		//大于已分配的实际空间，进行动态扩容
@@ -63,30 +62,32 @@ class String{
 		char* c_str();
 
 		//返回字符串的指针，用于输出
-		char* data();
+		char* data()const;
 
 		//重载[]，能够通过下标访问字符
-		char& operator[](int index);
-		
+		char& operator[](int index)const;
+		bool operator ==(const String& b)const;
+		bool operator >(const String& b)const;
+		bool operator >=(const String& b)const;
+		bool operator <(const String& b)const;
+		bool operator <=(const String& b)const;
+
 		
 		//#######功能区#########
 
 		//1、长度函数:
-		int StrLength();
+		int StrLength()const;
 		
 		//2、StrAssign赋值函数
 		//可以接受的字符串类型：
 		//String，char*两种
 		void StrAssign(char* b, int len);
 		void StrAssign(char* b);
-		void StrAssign(String & b);
+		void StrAssign(const String & b);
 
 		//以下三个函数对符号=进行了重载
 		//使String使用=进行一般的赋值
 		//可接受的字符串类型：String,char*,const char*
-		String& operator =(String &b);
-		String& operator =(const char* b);
-		String& operator =(char* b);		
 		
 		//3、StrConcat函数：
 		//可接受的字符串类型:
@@ -94,7 +95,7 @@ class String{
 		void StrConcat(char* b, int len);
 		void StrConcat(char* b);
 		void StrConcat(const char* b);
-		void StrConcat(String &b);
+		void StrConcat(const String &b);
 
 		//4：Substr函数：
 		String Substr(int i, int j);
@@ -106,8 +107,8 @@ class String{
 		//a.StrCmp(b),a.StrCmp(c)
 		//比较a与b的大小，比较a与c的大小
 		//a>b则返回1，a=b返回0，a<b返回-1
-		int StrCmp(char* b);
-		int StrCmp(String &str);
+		int StrCmp(char* b)const;
+		int StrCmp(const String &str)const;
 				
 		//6:StrIndex函数：
 		//可接受的类型：String,char*
@@ -121,7 +122,9 @@ class String{
 		int StrIndex(char* b, int offset);
 		int StrIndex(char* b);
 		int StrIndex(const char* b);
-		int StrIndex(String& str);
+		int StrIndex(const String& str);
+		int StrIndex(const char* b, int index);
+		int StrIndex(const String& str, int index);
 		
 		//7、StrInsert函数：
 		//用法:
@@ -134,7 +137,7 @@ class String{
 		//那么b(c)会被插入到a的末尾
 		void StrInsert(char* str,int index,int offset);
 		void StrInsert(char* str, int index);		
-		void StrInsert(String &str, int index);
+		void StrInsert(const String &str, int index);
 
 		//8、StrDelete函数:
 		//用法：
@@ -149,9 +152,9 @@ class String{
 		//a.StrRep(char*/String b,char*/String c)
 		//将a中的b替换为c
 		void StrRep(char* a, char* b);
-		void StrRep(String &t, char* r);
-		void StrRep(char* t, String& r);
-		void StrRep(String &t, String&r);
+		void StrRep(const String &t, char* r);
+		void StrRep(char* t, const String& r);
+		void StrRep(const String &t, const String&r);
 };
 
 #endif

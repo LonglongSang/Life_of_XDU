@@ -10,12 +10,12 @@ ll build(int pos,int left,int right){
     if(left==right){
         dp[pos]=ori[left];
         return dp[pos];
-    }
+    } 
     int mid=(left+right)/2;
     dp[pos]+=build(pos*2,left,mid);
     dp[pos]+=build(pos*2+1,mid+1,right);
     return dp[pos];
-}
+} 
 void to_solve(int pos,int left,int right,int mid){
     tag[pos*2]+=tag[pos];
     tag[pos*2+1]+=tag[pos];
