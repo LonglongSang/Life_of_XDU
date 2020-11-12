@@ -57,14 +57,11 @@ int main(void) {
     for(int i=0;i<m;i++){
         scanf("%d",&typ);
         if(typ==1){
-            //update(int pos,int left,int right,int lower,int upper,int add)
-            //add
             scanf("%d %d %d",&lower,&upper,&add);
             lower--;
             upper--;
             update(1,0,n-1,lower,upper,add);
         }else{
-            //ll getsum(int pos,int left,int right,int lower,int upper)
             scanf("%d %d",&lower,&upper);
             lower--;
             upper--;
