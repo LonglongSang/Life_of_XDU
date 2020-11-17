@@ -1,150 +1,76 @@
-//https://www.luogu.com.cn/problem/P3373
-//P3373 【模板】线段树 2
-#include<stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <iostream>
-#include <unordered_map>
+#include<iostream>
+#include<cstdio>
+#define N 1000001
 using namespace std;
-/*
-第一行包含三个整数 n,m,p，分别表示该数列数字的个数、操作的总个数和模数。
-
-第二行包含 n 个用空格分隔的整数，其中第 ii 个数字表示数列第 ii 项的初始值。
-
-接下来 mm 行每行包含若干个整数，表示一个操作，具体如下：
-
-操作 1： 格式：1 x y k 含义：将区间 [x,y][x,y] 内每个数乘上 k
-
-操作 2： 格式：2 x y k 含义：将区间 [x,y][x,y] 内每个数加上 k
-
-操作 3： 格式：3 x y 含义：输出区间 [x,y][x,y] 内每个数的和对 pp 取模所得的结果
-*/
-#define N (int)1e6+5
-typedef long long ll;
-int n,m,typ,lower,upper;
-ll q,k;
-ll arr[N],dp[N*4];
-bool mul;
-struct node{
+using ll=long long;
+#define ls p<<1
+#define rs (p<<1)+1
+#define m (l+r)/2
+int ori[N];
+ll tag[N<<2],t[N<<2];
+void build(int p,int l,int r){
+    if(l==r){
+        t[p]=ori[l];
+        return;
+    }  
+    build(ls,l,m);
+    build(rs,m+1,r);
+    t[p]=t[ls]+t[rs];
+}
+void push_down(int p,int l,int r){
+    if(tag[p]==0) return;
+    tag[rs]+=tag[p];
+    tag[ls]+=tag[p];
+    t[ls]+=tag[p]*(m-l+1);
+    t[rs]+=tag[p]*(r-m);
+    tag[p]=0;
+}
+void update(int p,int l,int r,int q_l,int q_r,ll k){
+    if(q_l<=l && r<=q_r){
+        tag[p]+=k;
+        t[p]+=k*(r-l+1);
+        return;
+    }
+    push_down(p,l,r);
+    if(q_l<=m) update(ls,l,m,q_l,q_r,k);
+    if(q_r>m) update(rs,m+1,r,q_l,q_r,k);
+    t[p]=t[ls]+t[rs];
+}
+ll query(int p,int l,int r,int q_l,int q_r){
+    if(q_l<=l && r<=q_r){
+        return t[p];
+    }
+    push_down(p,l,r);
+    ll ret=0;
+    if(q_l<=m) ret+=query(ls,l,m,q_l,q_r);
+    if(q_r>m) ret+=query(rs,m+1,r,q_l,q_r);
+    return ret;
+}
+int main()
+{
+    int n,q,typ,l,r;
     ll k;
-    bool mul;
-    node* next;
-    node(ll _k,bool _mul): k(_k),next(NULL),mul(_mul){}
-};
-class myqueue{
-    private:
-        node* head=NULL;
-        int siz=0;
-    public:
-    int size(){
-        return siz;
+    scanf("%d %d\n",&n,&q);
+    for(int i=1;i<=n;i++){
+        scanf("%d",ori+i);
+        getchar();
     }
-    void push(ll k,bool mul){
-        if(head==NULL){
-            head=new node(k,mul);
-            head->next=head;
-        }else{
-            node* temp;
-            temp=head->next;
-            head->next=new node(k,mul);
-            head->next->next=temp;
-            head=head->next;
-        }
-        siz++;
-    }
-    void pop(){
-        if(head->next==head){
-            delete head;
-            head=NULL;
-        }else{
-            node* temp=head->next;
-            head->next=head->next->next;
-            delete temp;
-        }
-        siz--;
-    }
-    node* front(){
-        return head->next;
-    }
-};
-
-myqueue tag[N*4];
-
-void build(int pos,int left,int right){
-    if(left==right){
-        dp[pos]=arr[left];
-        return;
-    }
-    int mid=(left+right)/2;
-    build(pos*2,left,mid);
-    build(pos*2+1,mid+1,right);
-    dp[pos]=dp[pos*2]+dp[pos*2+1];
-}
-
-void assign(int pos,int left,int right){
-    int mid=(left+right)/2;
-    while(tag[pos].size()){
-        if(mid!=left) tag[pos*2].push(tag[pos].front()->k,tag[pos].front()->mul);
-        if(mid+1!=right) tag[pos*2+1].push(tag[pos].front()->k,tag[pos].front()->mul);
-        if(tag[pos].front()->mul){
-            dp[pos*2]*=tag[pos].front()->k;
-            dp[pos*2+1]*=tag[pos].front()->k;
-        }else{
-            dp[pos*2]+=(ll)(mid-left+1)*tag[pos].front()->k;
-            dp[pos*2+1]+=(ll)(right-mid)*tag[pos].front()->k;
-        }
-        tag[pos].pop();
-    }
-}
-void update(int pos,int left,int right){
-    if(lower<=left && right<=upper){
-        if(mul){
-            dp[pos]*=k;
-        }else{
-            dp[pos]+=(ll)(right-left+1)*k;
-        }
-        if(left!=right) tag[pos].push(k,mul);
-        return;
-    }
-    int mid=(left+right)/2;
-    if(tag[pos].size()) assign(pos,left,right);
-    if(lower<=mid) update(pos*2,left,mid);
-    if(upper>mid) update(pos*2+1,mid+1,right);
-    dp[pos]=dp[pos*2]+dp[pos*2+1];
-}
-ll getsum(int pos,int left,int right){
-    if(lower<=left && right<=upper){
-        return dp[pos];
-    }
-    int mid=(left+right)/2;
-    if(tag[pos].size()) assign(pos,left,right);
-    ll ans=0;
-    if(lower<=mid) ans+=getsum(pos*2,left,mid);
-    if(upper>mid) ans+=getsum(pos*2+1,mid+1,right);
-    return ans;
-}
-int main(){
-    freopen("G:\\Life_of_XDU\\P3373_2.in","r",stdin);
-    freopen("G:\\Life_of_XDU\\P3373_2.out","r",stdout);
-    scanf("%d %d %lld\n",&n,&m,&q);
-    for(int i=1;i<=n;i++) scanf("%lld",arr+i);
     build(1,1,n);
-    for(int i=0;i<m;i++){
+    for(int i=0;i<q;i++){
         scanf("%d ",&typ);
-        //1 x y k 含义：将区间 [x,y][x,y] 内每个数乘上 k
-        //格式：2 x y k 含义：将区间 [x,y][x,y] 内每个数加上 k
-        if(typ!=3){
-            //乘以
-            scanf("%d %d %lld\n",&lower,&upper,&k);
-            if(typ==1) mul=true;
-            else mul=false;
-            update(1,1,n);
-        }else{
-            scanf("%d %d\n",&lower,&upper);
-            printf("%lld\n",getsum(1,1,n)%q);
+        switch(typ){
+            case 1:{
+                scanf("%d %d %lld\n",&l,&r,&k);
+                update(1,1,n,l,r,k);
+                break;
+            }
 
+            case 2:{
+                scanf("%d %d\n",&l,&r);
+                printf("%lld\n",query(1,1,n,l,r));
+                break;
+            }
         }
-
     }
     return 0;
 }

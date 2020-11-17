@@ -17,44 +17,76 @@
 #include <complex>
 #include <unordered_map>
 using namespace std;
-#define N 100001
-int n,m,q;
-using p=pair<int,int>;
-p arr[N];
-int v[3*N];
-int query[N];
-int cnt;
-int sum[3*N];
+
+
+
+
+
+
+
+#define mid (l+r)/2
+int dp[10001];
+class Solution {
+public:
+    /**
+     * @param A: An integer array
+     * @param queries: The query list
+     * @return: The number of element in the array that are smaller that the given integer
+     */
+    struct node{
+        node* left=NULL;
+        node* right=NULL;
+        int l,r,tag=0;
+        int cnt=0;
+        node(int _l,int _r): l(_l),r(_r){}
+    };
+    node* add(node* root,int l,int r,int q_l,int q_r,int k){
+        if(!root) root=new node(l,r);
+        if(q_l<=l && r<=q_r){
+            root->cnt+=k;
+            return;
+        }
+        if(q_l<=mid) root->left=add(root->left,l,mid,q_l,q_r,k);
+        if(q_r>mid) root->right=add(root->right,mid+1,r,q_l,q_r,k);
+        root->cnt=(root->left?root->left->cnt:0)+(root->right?root->right->cnt:0);
+        return root;
+    }
+    int query(node* root,int l,int r,int q_l,int q_r){
+        if(q_l<=l && r<=q_r) return root->cnt;
+        int ans=0;
+        if(q_l<=mid && root->left) ans+=query(root->left,l,mid,q_l,q_r);
+        if(q_r>mid && root->right) ans+=query(root->right,mid+1,q_l,q_r);
+        return ans;
+    }
+
+    vector<int> countOfSmallerNumber(vector<int> &A, vector<int> &queries) {
+        // write your code here
+        node* root=NULL;
+        memset(dp,0,40004);
+        for(auto &v:A){
+            dp[v]++;
+        }
+        vector<int> ans(queries.size());
+        for(int i=0;i<10001;i++) if(dp[i]) root=add(root,0,10000,i,i,dp[i]);
+        for(int i=0;i<queries.size();i++){
+            if(queries[i]==0) ans[i]=0;
+            else ans[i]=query(root,0,10000,0,queries[i]-1);
+        }
+        return ans;
+    }
+};
+
+
+
+
+
+
+
+
+
+
 int main()
 {
-    scanf("%d %d %d\n",&n,&m,&q);
-    for(int i=0;i<m;i++){
-        scanf("%d %d\n",&arr[i].first,&arr[i].second);
-        v[cnt++]=arr[i].first;
-        v[cnt++]=arr[i].second;
-    }
-    for(int i=0;i<q;i++){
-        scanf("%d",&query[i]);
-        v[cnt++]=query[i];
-    }
-    sort(v,v+cnt);
-    cnt=unique(v,v+cnt)-v;
-    unordered_map<int,int> mp;
-    for(int i=0;i<cnt;i++){
-        mp[v[i]]=i;
-    }
-    for(int i=0;i<m;i++){
-        sum[mp[arr[i].first]]++;
-        sum[mp[arr[i].second]+1]--;
-    }
-    int upper=mp[v[cnt-1]];
-    int add=0;
-    for(int i=0;i<=upper;i++){
-        add+=sum[i];
-        sum[i]=add;
-    }
-    for(int i=0;i<q;i++){
-        printf("%d\n",sum[mp[query[i]]]);
-    }
+
     return 0;
 }

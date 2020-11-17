@@ -46,6 +46,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,8 +72,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="93" key="#Project_Structure" timestamp="1605266097768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605266097768" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1604933870771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -79,9 +87,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604935014164" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604934522556">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605266032607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604934522556" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605266032607" />
   </component>
 </project>
