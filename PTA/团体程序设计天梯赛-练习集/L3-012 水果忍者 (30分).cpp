@@ -11,15 +11,18 @@ int n,lef=0x7fffffff,righ=0x80000000,upper=0x80000000,lower=0x7fffffff,cnt;
 struct node{
     int x,y1,y2;//y1>y2;
 }e[10005];
-int unbe=-1203;
-int y[10005];
-int cnt_y=0;
+int uni[N],uni_cnt;
+bool vis[N];
 int isok(int i){
-    int low=lower,high=upper,mid;
+    int low=0,high=uni_cnt-1,mid,v;
     float k,b,a,u,l;
+    memset(vis,0,uni_cnt);
     while(high>=low){
         mid=(low+high)/2;
-        k=(float)(mid-i)/(float)(righ-lef);
+        v=uni[mid];
+        if(vis[mid]) return -1;
+        vis[mid]=true;
+        k=(float)(v-i)/(float)(righ-lef);
         b=(float)i-k*lef;
         bool good=true;
         for(int i=0;i<cnt;i++){
@@ -36,7 +39,7 @@ int isok(int i){
         }
         if(good) return mid;
     }
-    return unbe;
+    return -1;
 }
 int main(){
     
@@ -56,22 +59,25 @@ int main(){
             e[cnt++]=e[i];
         }
     }
-
     for(int i=0;i<cnt;i++){
+        uni[uni_cnt++]=e[i].y1;
+        uni[uni_cnt++]=e[i].y2;
         lef=min(lef,e[i].x);
         righ=max(righ,e[i].x);
-        lower=min(lower,e[i].y2);
-        upper=max(upper,e[i].y1);
+        //lower=min(lower,e[i].y2);
+        //upper=max(upper,e[i].y1);
     }
-    if(cnt==1){
+    sort(uni,uni+uni_cnt);
+    uni_cnt=unique(uni,uni+uni_cnt)-uni;
+    if(uni_cnt==1){
         printf("%d %d %d %d\n",lef,e[0].y1,lef+1,e[0].y1);
         return 0;
     }
     int v;
-    for(int i=lower;i<=upper;i++){
-        v=isok(i);
-        if(v!=unbe){
-            printf("%d %d %d %d\n",lef,i,righ,v);
+    for(int i=0;i<uni_cnt;i++){
+        v=isok(uni[i]);
+        if(v!=-1){
+            printf("%d %d %d %d\n",lef,uni[i],righ,uni[v]);
             break;
         }
     }
