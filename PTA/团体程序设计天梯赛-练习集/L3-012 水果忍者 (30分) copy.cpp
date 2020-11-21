@@ -14,7 +14,8 @@ struct node{
 }e[10005];
 struct k{
     ll y,x;
-    k(ll y_,ll _x):y(_y),x(_x){}
+    k(ll _y,ll _x):y(_y),x(_x){}
+    k(){}
 };
 ll k_cmp(k &a,k &b){
     return a.y*b.x-a.x*b.y;
@@ -38,18 +39,28 @@ int main(){
     }
     n=cnt;
     if(n==1){
-        printf("%lld %lld %lld %lld\n",lef,e[0].y1,lef+1,e[0].y1);
+        printf("%lld %lld %lld %lld\n",e[0].x,e[0].y1,e[0].x+1,e[0].y1);
         return 0;
     }
-    k upper,lower;
+    k upper,lower,now;
     for(int i=0;i<n;i++){
-        upper(100000,0);
-        lower(-100000,0);
+        upper={100000,0};
+        lower={-100000,0};
         for(int j=0;j<i;j++){
-            if(k_cmp())
+            now={e[j].y2-e[i].y1,e[i].x-e[j].x};
+            if(k_cmp(upper,now)>0) upper=now;
+            now={e[j].y1-e[i].y2,e[i].x-e[j].x};
+            if(k_cmp(lower,now)<0) lower=now;
         }
         for(int j=i+1;j<n;j++){
-
+            now={e[j].y2-e[i].y1,e[j].x-e[i].x};
+            if(k_cmp(upper,now)>0) upper=now;
+            now={e[j].y1-e[i].y2,e[j].x-e[i].x};
+            if(k_cmp(lower,now)<0) lower=now;
+        }
+        if(k_cmp(upper,lower)>0){
+            printf("%lld %lld %lld %lld\n",e[i].x,e[i].y2,e[i].x+lower.x,e[i].y2+lower.y);
+            return 0;
         }
     }
     return 0;

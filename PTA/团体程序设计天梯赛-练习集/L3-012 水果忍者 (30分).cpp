@@ -15,23 +15,24 @@ int uni[N],uni_cnt;
 bool vis[N];
 int isok(int i){
     int low=0,high=uni_cnt-1,mid,v;
-    float k,b,a,u,l;
+    cout<<low<<" "<<high<<endl;
+    double k,b,a,u,l;
     memset(vis,0,uni_cnt);
     while(high>=low){
         mid=(low+high)/2;
         v=uni[mid];
         if(vis[mid]) return -1;
         vis[mid]=true;
-        k=(float)(v-i)/(float)(righ-lef);
-        b=(float)i-k*lef;
+        k=(double)(v-i)/(double)(righ-lef);
+        b=(double)i-k*lef;
         bool good=true;
         for(int i=0;i<cnt;i++){
             a=k*e[i].x+b;
-            if(a>(float)e[i].y1){
+            if(a>(double)e[i].y1){
                 good=false;
                 high=mid-1;
                 break;
-            }else if(a<(float)e[i].y2){
+            }else if(a<(double)e[i].y2){
                 good=false;
                 low=mid+1;
                 break;
