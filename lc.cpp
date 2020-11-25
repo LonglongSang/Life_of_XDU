@@ -1,44 +1,38 @@
-#include <bits/stdc++.h> //万能头 
+#include <stdlib.h>
+#include <iostream>
+#include <stdio.h>
+#include <algorithm>
+#include <vector>
 using namespace std;
-using ll=long long;
-#define N 128
-int todigit[N],typ,radix;
-char a[20],b[20],c[20];
-bool isok(char* a,int radix){
-	while(*a){
-		if(todigit[*a]>=radix) return false;
-		a++;
-	}
-	return true;
+int n,m,cnt[100000],v,ans,path[100],total;
+bool good;
+void dfs(int total,int i,int step){
+    //访问存在cnt[i]中的币值
+    if(total==0){
+        good=true;
+        ans=step;
+        return;
+    }
+    if(i==total) return;
+    path[step]=cnt[i];
+    if(good) dfs(total-cnt[i],i+1,step+1);//选这一张币值
+    if(good) dfs(total,i+1,step);//不选这一张币值
 }
-void build(){
-	for(char i='0';i<='9';i++) todigit[i]=i-'0';
-	for(char i='a';i<='z';i++) todigit[i]=i-'a'+10;
-}
-ll change(char* a,int radix){
-	int i=strlen(a);
-	ll num=0;
-	while(i--)  num=num*radix+todigit[a[i]];
-	return num;
+int main(){
+    scanf("%d %d\n",&n,&m);
+    for(int i=0;i<n;i++){
+        scanf("%d",cnt+total);
+        if(cnt[total]<=m) total++;
+    }
+    sort(cnt,cnt+total);
+    dfs(m,0,0);
+    if(ans==0){
+        printf("No Solution\n");
+    }else{
+        printf("%d",path[0]);
+        for(int i=1;i<ans;i++) printf(" %d",path[i]);
+        printf("\n");
+    }
 }
 
-int main()
-{
-	scanf("%s %s %d %d",a,b,&typ,&radix);
-	build();
-	ll x,y;
-	if(typ==2){
-		strcpy(c,a);
-		strcpy(a,b);
-		strcpy(b,c);	
-	}
-	x=change(a,radix);
-	for(int i=2;i<=36;i++){
-		if(isok(b,i) && change(b,i)==x){
-			printf("%d\n",i);
-			return 0;
-		}
-	}
-	printf("Impossible\n");
-	return 0;
-}
+
