@@ -5,7 +5,7 @@
 #include <stdlib.h>
 using namespace std;
 using ll=long long;
-ll n,q,dev=1000000007,ec;
+ll n,q,dev=1000000007,ec,p;
 ll qpow(ll a, ll p,ll dev){
     //(a**p)%dev
     ll ans=1;
@@ -18,9 +18,10 @@ ll qpow(ll a, ll p,ll dev){
 }
 
 int main(){
-    scanf("%lld %lld",&n,&q);
-    ec=qpow(9,dev-2,dev);
-    ll a=qpow(10,n,dev);
-    printf("%lld",q*(a-1)*ec%dev);
+
+    scanf("%lld %lld",&n,&p);
+    for(int i=1;i<=n;i++){
+        printf("%lld\n",qpow(i,p-2,p));
+    }
 
 }
