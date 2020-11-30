@@ -3,41 +3,41 @@
 //#include <unistd.h>
 #include <windows.h>
 #include <time.h>
+#include <algorithm>
+#include <vector>
+#include <set>
 using namespace std;
-void method1(int width,int microsec){
-	for(int i=0;i<=100;i++){
-		putchar('\r');
-		for(int j=0;j<width*i/100;j++) putchar('-');
-		printf("%d%%",i);
-		for(int j=0;j<width*(100-i)/100;j++) putchar('-');
-		putchar('>');
-		fflush(stdout);
-		Sleep(microsec);
-	}
-}
-void method2(int width,int microsec){
-	for(int i=0;i<=100;i++){
-		putchar('\r');
-		for(int j=0;j<width*i/100;j++) putchar('-');
-		printf("(-V-) I am running ");
-        printf("%d%%",i);
-		printf("-->");
 
-        fflush(stdout);
-		Sleep(rand()%microsec);
-	}    
-}
+
+
+int dp[100000];
+int cnt;
+class Solution {
+public:
+    vector<int> mostCompetitive(vector<int>& nums, int k) {
+		int n=nums.size();
+		for(int i=0;i<n;i++){
+			if(cnt==0){
+				dp[cnt++]=nums[i];
+			}else if(cnt+(n-i)>k){
+				for(int j=max(0,cnt-(n-i));j<cnt;j++){
+					if(nums[i]<dp[j]){
+						dp[j]=nums[i];
+						cnt=j+1;
+						break;
+					}
+				}
+			}else{
+				dp[cnt++]=nums[i];
+			}
+		}
+		vector<int> ret(k);
+		for(int i=0;i<k;i++) ret[i]=dp[i];
+		return ret;
+    }
+};
+
+
 int main(){
-	//method1(100,100);
-    //FILE* temp=stdout;
-    //freopen("G:\\Life_of_XDU\\output.txt","w+",stdout);
-    //for(int i=0;i<10;i++) putchar(i);
-    
 
-
-    srand(time(0));
-	FILE* temp=stdout;
-	//stdout=temp;
-
-    method2(60,200);
 }
