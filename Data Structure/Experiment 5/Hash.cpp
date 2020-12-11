@@ -4,18 +4,18 @@
 using namespace std;
 template <class T,class V>
 class myhash{
-    private:
-        int(*hash_mapping)(T&);
-        int n,cap;
+    public:
         struct node{
             T first;
             V second;
             node* next;
             node(T& a,V& b):first(a),second(b),next(NULL){}
         };
+    private:
+        int(*hash_mapping)(T&);
+        int n,cap;
         node** head;
         pair<node*,node*> find_inner(T& key){
-            //上一个，a
             int index=hash_mapping(key)%n;
             node* cur=head[index];
             node* last=NULL;
@@ -31,12 +31,13 @@ class myhash{
             if(vis) return {last,cur};
             else return {NULL,NULL};
         }
-    public:
         void initialize(){
             cap=0;
             head=new node*[n];
             for(int i=0;i<n;i++) head[i]=NULL;
         }
+    public:
+
         myhash(int(*hash_mapping)(T&)){
             n=10000;
             initialize();
@@ -47,7 +48,7 @@ class myhash{
             initialize();
             this->hash_mapping=hash_mapping;
         }
-        void insert(T& key,V& val){
+        void insert(T key,V val){
             int index=hash_mapping(key)%n;
             node* cur=head[index];
             bool vis=false;
@@ -67,7 +68,7 @@ class myhash{
                 cur->second=val;
             }
         }
-        void erase(T& key){
+        void erase(T key){
             int index=hash_mapping(key)%n;
             pair<node*,node*> temp=find_inner(key);
             if(temp.second && temp.first){
@@ -94,85 +95,142 @@ class myhash{
         node* end(){
             return NULL;
         }
-        pair<myhash<T,V>::node**,int> begin(){
+        pair<node**,int> begin(){
             return {head,n};
         }
-        
+
+        public:
+            class iterator{
+                public:
+                    node** arr;
+                    node* ptr;
+                    int n,cur;
+                    iterator();
+                    bool operator==(iterator& a);
+                    bool operator!=(iterator& a);
+                    bool operator!=(node* a);
+                    void forward();
+                    void operator++();
+                    void operator++(int);
+                    iterator& operator=(pair<node**,int> temp);
+                    iterator& operator=(iterator& temp);
+                    node* operator->();
+
+            };   
 };
+template <class T,class V>
+bool myhash<T,V>::iterator::operator==(myhash<T,V>::iterator& a){
+    return ptr==a.ptr;
+}
+template <class T,class V>
+bool myhash<T,V>::iterator::operator!=(myhash<T,V>::iterator& a){
+    return ptr!=a.ptr;
+}
+template <class T,class V>
+bool myhash<T,V>::iterator::operator!=(node* a){
+    return ptr!=a;
+}
+template <class T,class V>
+void myhash<T,V>::iterator::forward(){
+    if(ptr && ptr->next){
+        ptr=ptr->next;
+        return;
+    }
+    ptr=NULL;
+    while(cur!=n && ptr==NULL){
+        ptr=arr[cur++];
+    }
+}
 
 template <class T,class V>
-class iterator:public myhash<T,V>{
-    friend class myhash<T,V>;
-    public:
-        
-        //myhash<T,V>::node** arr;
-        //myhash<T,V>::node* ptr;
-        (myhash<T,V>::node)** arr;
-        (myhash<T,V>::node) * ptr;
-        int n;
-        int cur;
-        iterator(pair<myhash<T,V>::node**,int> temp){
-            
-            ptr=NULL;
-            cur=0,n=temp.second;
-            forward();
-        }
-        iterator& operator=(iterator& a){
-            if(this!=&a) *this=a;
-            return *this;
-        }
-        iterator& operator=(pair<myhash<T,V>::node**,int> temp){
-            iterator(temp);
-            return *this;
-        }
-        bool operator==(iterator& a){
-            return ptr==a.ptr;
-        }
-        bool opeartor!=(iterator& a){
-            return ptr!=a.ptr;
-        }
-        void forward(){
-            if(ptr && ptr->next){
-                ptr=ptr->next;
-                return;
-            }
-            ptr=NULL;
-            while(cur!=n && ptr==NULL){
-                ptr=arr[cur++];
-            }
-        }
-        void operator++(){
-            forward();
-        }
-};
-int mapping(int &a){
-    return a;
+void myhash<T,V>::iterator::operator++(){
+    forward();
+}
+template <class T,class V>
+void myhash<T,V>::iterator::operator++(int){
+    forward();
+}
+
+template <class T,class V>
+typename myhash<T,V>::iterator& myhash<T,V>::iterator::operator=(pair< myhash<T,V>::node **,int> temp){
+    this->arr=temp.first;
+    this->n=temp.second;
+    this->cur=0;
+    this->ptr=NULL;
+    forward();
+    return *this;
+}
+template <class T,class V>
+typename myhash<T,V>::iterator& myhash<T,V>::iterator::operator=(myhash<T,V>::iterator& temp){
+    memcpy(this,&temp,sizeof(temp));
+    return *this;
+}
+template <class T,class V>
+myhash<T,V>::iterator::iterator(){
+    arr=NULL,ptr=NULL;
+    n=0,cur=0;
+}
+template <class T,class V>
+typename myhash<T,V>::node* myhash<T,V>::iterator::operator->(){
+    return this->ptr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+struct infor{
+    char name[21];
+    char phone[12];
+    char add[51];
+}arr[10000];
+int n;
+int mapping_phone(char*& phone){
+    //hash映射函数
+    int ans=0;
+    int dev=1e9+7;
+    for(int i=0;phone[i];i++){
+        ans=(ans*10+phone[i]-'0')%dev;
+    }
+    return ans;
 }
 void test1(){
-    myhash<int,int> dp(mapping);
-    dp[10]=10;
-    dp[12]=123;
-    cout<<dp.size()<<endl;
-    cout<<dp[10]<<" "<<dp[13]<<endl;
-    cout<<dp.size()<<endl;
-}
-struct node{
-    char name[10];
-    int grade;
-    bool operator == (node &b){
-        return grade==b.grade;
+    //以电话号码作为键
+    myhash<char*,pair<char*,char*>> dp(mapping_phone);
+    for(int i=0;i<n;i++){
+        dp[(char*)arr[i].phone]={(char*)arr[i].add,(char*)arr[i].name};
     }
-};
-int mapping1(node& a){
-    return a.grade;
+    myhash<char*,pair<char*,char*>>::iterator it;
+    for(it=dp.begin();it!=dp.end();it++){
+        printf("phone num:%s address:%s name:%s\n",it->first,it->second.first,it->second.second);
+    }
+    dp.erase((char*)arr[0].phone);
+    printf("after delete one items\n");
+    for(it=dp.begin();it!=dp.end();it++){
+        printf("phone num:%s address:%s name:%s\n",it->first,it->second.first,it->second.second);
+    }    
 }
-void test2(){
-    myhash<node,int> dp(mapping1);
-    node temp;
-    temp.grade=10;
-    dp[temp]=33;
-    cout<<dp[temp]<<endl;
+void input(){
+    scanf("%d",&n);
+    getchar();
+    for(int i=0;i<n;i++){
+        scanf("%s %s %s",arr[i].name,arr[i].phone,arr[i].add);
+    }
+    /*
+    3
+    sanglonglong 12345 xidian
+    wangyifa 110 xidainnan
+    lixiaofei 120 xidianbei
+    */
 }
 int main(){
-    test2();
+    input();
+    test1();
 }
