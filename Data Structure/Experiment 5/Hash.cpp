@@ -1,3 +1,4 @@
+//3、hash表
 #include <stdio.h>
 #include <iostream>
 #include <stdlib.h>
@@ -174,15 +175,6 @@ template <class T,class V>
 typename myhash<T,V>::node* myhash<T,V>::iterator::operator->(){
     return this->ptr;
 }
-
-
-
-
-
-
-
-
-
 
 
 
