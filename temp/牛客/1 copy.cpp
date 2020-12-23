@@ -14,90 +14,56 @@
 using namespace std;
 
 
-
-/*
-这个题思想很巧妙，给定我们一个树，求出树中所有路径值的和，路径定义为路径经过的所有点的价值的与运算的和
-一个点也算一个路径。
-思路：
-题目给定每个点的价值小于2的20次方，对于二进制中的每一位，求出该树的连通子集
-假如对于第i位的第j个联通子集，其包含的点数量为num[j]
-sum+=(1<<i)*E(num[j]*(num[j]+1)/2)
-类似于分治
-*/
-#define N 100005
-int par[N],cpy[N],cnt[N],tot;
-bool vis[N];
-int find(int a){
-    if(a==par[a]) return a;
-    else return par[a]=find(par[a]);
-}
-void merge(int a,int b){
-    a=find(a);
-    b=find(b);
-    if(a==b) return;
-    if(cnt[b]>cnt[a]) swap(a,b);
-    par[a]=b;
-    cnt[b]+=cnt[a];
-}
-void init(int n){
-    if(tot==0){
-        for(int i=0;i<N;i++) cpy[i]=i;
+const int N = 2e5 + 5, mod = 1e9 + 7;
+int p[N];
+struct node{
+    int v, i;
+    bool operator < (const node & A) const{
+        return v < A.v;
     }
-    tot++;
-    memcpy(par,cpy,sizeof(int)*(n+1));
-    memset(cnt,-1,sizeof(int)*(n+1));
-    memset(vis,0,n+1);
+}d[N];
+int fac[N], inv[N];
+typedef long long LL;
+LL z = 1;
+int ksm(int a, int b, int p){
+	int s = 1;
+	while(b){
+		if(b & 1) s = z * s * a % p;
+		a = z * a * a % p;
+		b >>= 1;
+	}
+	return s;
+}
+int C(int n, int m){
+    return z * fac[n] * inv[m] % mod * inv[n - m] % mod;
 }
 class Solution {
 public:
     /**
      * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
      * 
-     * @param n int整型 点的个数
-     * @param u int整型vector 每条边的起点
-     * @param v int整型vector 每条边的终点
-     * @param p int整型vector 每个点的价值
-     * @return long长整型
+     * @param n int整型 
+     * @param k int整型 
+     * @param Point int整型vector 
+     * @return int整型vector
      */
-    long long solve(int n, vector<int>& u, vector<int>& v, vector<int>& p) {
+    vector<int> v;
+    vector<int> city(int n, int k, vector<int>& Point) {
         // write code here
-        using ll=long long;
-        ll sum=0,num,temp_sum;
-        int k=0,z,q;
-        for(int i=0;i<n;i++){
-            //求出价值的二进制最高位
-            q=p[i];
-            z=0;
-            while(q){
-                q/=2;
-                z++;
-            }
-            k=max(k,z);
+        fac[0] = 1;
+        for(int i = 1; i <= n; i++) fac[i] = z * fac[i - 1] * i % mod;
+        inv[n] = ksm(fac[n], mod - 2, mod);
+        for(int i = n - 1; i >= 0; i--) inv[i] = z * inv[i + 1] * (i + 1) % mod;
+        for(int i = 1; i <= n; i++) d[i] = {Point[i - 1], i};
+        sort(d + 1, d + n + 1);
+        int t = ksm(C(n, k), mod - 2, mod);
+        for(int i = k; i <= n; i++){
+            p[d[i].i] = z * C(i - 1, k - 1) * t % mod;
         }
-        for(int i=0;i<k;i++){//对k个2进制位遍历
-            init(n);//初始化
-            for(int j=0;j<n-1;j++){
-                //并查集寻找连通子集
-                if((p[u[j]]&p[v[j]]&(1<<i))==0) continue;
-                //如果这条边连接的两个点不能够形成联通条件，就跳过
-                merge(u[j]+1,v[j]+1);
-            }
-            temp_sum=0;
-            for(int j=1;j<=n;j++){
-                if(vis[find(j)] || (p[j-1]&(1<<i))==0) continue;
-                vis[find(j)]=true;
-                num=-cnt[find(j)];//该连通集的大小
-                //点个数为num的连通集，可形成路径数num*(num+1)/2
-                temp_sum+=(num+1)*num/2;
-            }
-            sum+=temp_sum*(1<<i);
-        }
-        return sum;
+        for(int i = 1; i <= n; i++) v.push_back(p[i]);
+        return v;
     }
 };
-
-
-
 
 
 

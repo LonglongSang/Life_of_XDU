@@ -1,41 +1,46 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <iostream>
-#include <algorithm>
-#include <queue>
-#define N 20005
-
-using ll=long long;
-ll a,b,cnt;
-int getsum(ll a,int typ){//求数位和
-    int ans=0;
-    while(a){
-        ans+=a%10;
-        a/=10;
-    }
-    return typ==1?ans*ans:ans;
-}
-
-void bfs(){
-    queue<ll> Q;
-    Q.push(1);
-    Q.push(2);
-    Q.push(3);
-    ll cur;
-    while(!Q.empty()){
-        cur=Q.front();
-        if(cur>b) continue;
-        if(cur>=a && cur<=b && getsum(cur,1)==getsum(cur*cur,2)) cnt++;
-        for(int i=0;i<4;i++){
-            Q.push(cur*10+i);
+int dp[105][21][105];
+//颜色，街区数
+class Solution {
+public:
+    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
+        //m个房子，n种颜色
+        memset(dp,0x3f,sizeof(dp));
+        dp[0][0][0]=0;
+        for(int i=0;i<m;i++){
+            if(houses[m]==0){
+                for(int j=1;j<=n;j++){
+                    for(int k=1;k<j;k++){
+                        for(int a=0;a<target;a++){
+                            dp[i+1][j][a+1]=min(dp[i+1][j][a+1],dp[i][k][a]+cost[i][j-1]);
+                        }
+                    }
+                    for(int a=0;a<=target;a++){
+                        dp[i+1][j][a]=min(dp[i+1][j][a],dp[i][j][a]);
+                    }
+                    for(int k=j+1;k<=n;k++){
+                        for(int a=0;a<target;a++){
+                            dp[i+1][j][a+1]=min(dp[i+1][j][a+1],dp[i][k][a]+cost[i][j-1]);
+                        }                        
+                    }
+                }
+            }else{
+                //memcpy(dp[i+1],dp[i],sizeof(dp[i]));
+                memset(dp[i+1],0x3f,sizeof(dp[i+1]));
+                for(int j=0;j<houses[m];j++){
+                    for(int k=target-1;k>=0;k--){
+                        dp[i+1][houses[i]][k+1]=dp[i+1][j][k];
+                    }
+                }
+                for(int k=target;k>=0;k--) dp[i+1][houses[i]][k]=dp[i][houses[i]][k];
+                for(int j=houses[m]+1;j<=n;j++){
+                    for(int k=target-1;k>=0;k--){
+                        dp[i+1][houses[i]][k+1]=dp[i+1][j][k];
+                    }
+                }
+            }
         }
+        int ans=0x3f3f3f3f;
+        for(int i=1;i<=n;i++) ans=min(ans,dp[m][i][target]);
+        return ans;
     }
-}
-int main(){
-    scanf("%lld %lld\n",&a,&b);
-    bfs();
-    printf("%lld\n",cnt);
-}
-
-
-
+};
