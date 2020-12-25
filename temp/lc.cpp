@@ -1,118 +1,59 @@
-#include <stdlib.h>
-#include <iostream>
-#include <stdio.h>
-#include <algorithm>
-#include <vector>
-#include <queue>
-#include <string.h>
-#include <unordered_map>
-#include <mysql.h>
-using namespace std;
-using ll=long long;
-int main(){
-
-    return 0;
-}
-
-
-
-
-
-bool vis[65536][100][100];
-int mp[100][100];
-int dist[40][16];
-struct temp{
-    
-}
-void build(){
-    queue<
-}
+int path[5];
+int cnt;
 class Solution {
 public:
-    struct node{
-        int x,y,tag;
-        bool take;
-    }temp,st,des,cur;
-    int r,c;
-    node get_axis(char v,vector<string>& maze){
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(maze[i][j]==v) return {i,j,0,false};
-            }
-        }
-        return temp;
+    string tostr(char a){
+        string s;
+        s.push_back(a);
+        return s;
     }
-    int num_of_want(vector<string>& maze){
-        int ret=0;
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(maze[i][j]=='M') mp[i][j]=ret++;
-            }
-        }
-        return ret;
-    }
-    int dir[4][2]={1,0,0,1,-1,0,0,-1};
-    int bfs(vector<string>& maze){
-        queue<node> Q;
-        int tot=num_of_want(maze);
-        des.tag=end_tag(tot);
-        //printf("%d\n",des.tag);
-        Q.push(st);
-        node end;
-        end.x=-1;
-        Q.push(end);
-        int cost=0;
-        vis[0][st.x][st.y]=true;
-        int x,y,tag;
-        while(!Q.empty()){
-            cur=Q.front();
-            Q.pop();
-            if(cur.x==-1){
-                if(Q.empty()) break;
-                cost++;
-                Q.push(end);
-                continue;
-            }
-            printf("%d %d %d %d\n",cur.x,cur.y,cur.tag,cost);
-            for(int i=0;i<4;i++){
-                x=dir[i][0]+cur.x,y=dir[i][1]+cur.y;
-                if(x<0 || x>=r || y<0 || y>=c || vis[cur.tag][x][y] || maze[x][y]=='#') continue;
-                vis[cur.tag][x][y]=true;
-                if(maze[x][y]=='M'){
-                    if(cur.tag & (1<<mp[x][y])){
-                        Q.push({x,y,cur.tag,cur.take});
-                    }else if(cur.take){
-                        Q.push({x,y,cur.tag|(1<<mp[x][y]),false});
-                    }else{
-                        Q.push({x,y,cur.tag,cur.take});
-                    }
-                }else if(maze[x][y]=='O'){
-                    Q.push({x,y,cur.tag,true});
-                }else if(maze[x][y]=='T' && cur.tag==des.tag){
-                    printf("%d %d\n",cur.tag,cost);
-                    return cost;
+    bool isok(string s){
+        bool change=true;
+        while(change){
+            change=false;
+            int cnt=1;
+            for(int i=1;i<s.length() && !change;i++){
+                if(s[i]==s[i-1]){
+                    cnt++;
                 }else{
-                    Q.push({x,y,cur.tag,cur.take});
+                    if(cnt>=3){
+                        s=s.substr(0,i-cnt)+s.substr(i);
+                        change=true;
+                        break;
+                    }
+                    cnt=1;
                 }
             }
+            if(cnt>=3){
+                s=s.substr(0,s.length()-cnt);
+                change=true;
+            }
         }
-        return cost;
+        return s.length()==0;
     }
-    void build(){
-
+    bool dfs(int step,string s,string&hand){
+        if(step==cnt){
+            cout<<s<<endl;
+            return isok(s);
+        }
+        for(int i=0;i<s.length();i++){
+            if(s[i]==hand[path[step]] && dfs(step+1,s.substr(0,i)+tostr(hand[path[step]])+s.substr(i),hand)) return true;
+        }
+        return false;
     }
-    int minimalSteps(vector<string>& maze) {
-        r=maze.size(),c=maze[0].length();
-        st=get_axis('S',maze);
-        des=get_axis('T',maze);
-        return bfs(maze);
+    int findMinStep(string board, string hand) {
+        int n=hand.length();
+        int ans=-1;
+        for(int i=0;i<=1<<n;i++){
+            int v=i,step=0;
+            cnt=0;
+            while(v){
+                if(v%2) path[cnt++]=step;
+                step++;
+                v/=2;
+            }
+            if(dfs(0,board,hand)) ans=ans==-1?cnt:min(ans,cnt);
+        }
+        return ans;
     }
 };
-
-
-
-
-
-
-
-
