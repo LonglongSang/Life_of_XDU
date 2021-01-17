@@ -14,55 +14,56 @@
 #include <stdio.h>
 using namespace std;
 
-
-
-
 struct node{
-    int l,w,h,i;
-}e[1000];
-int cnt;
-int dp[1000][100];
+    int index;
+    int tot;
+}e[10000];
+    int largestRectangleArea(vector<int>& heights) {
+        int ans=0;
+        heights.push_back(0);
+        stack<int> S;
+        for(int i=0;i<heights.size();i++){
+            while(!S.empty() && heights[i]<heights[S.top()]){
+                int top=S.top();
+                S.pop();
+                ans=max(ans,heights[top]*(S.empty()?i:(i-S.top()-1)));
+            }
+            S.push(i);
+        }   
+        return ans;
+    }
 class Solution {
 public:
-    int maxHeight(vector<vector<int>>& cuboids) {
-        memset(dp,0,sizeof(dp));
-        int n=cuboids.size();
-        int a=0;
-        cnt=0;
-        for(auto&v:cuboids){
-            e[cnt++]={min(v[1],v[2]),max(v[1],v[2]),v[0],a};
-            e[cnt++]={min(v[0],v[2]),max(v[0],v[2]),v[1],a};
-            e[cnt++]={min(v[0],v[1]),max(v[0],v[1]),v[2],a};
-            a++;
-        }
-        sort(e,e+cnt,[&](node&a,node&b){
-            return a.l*a.w<b.l*b.w;
+    int ass(vector<int> &y,vector<int> &x){
+        memcpy(y.data(),x.data(),sizeof(int)*x.size());
+        sort(y.begin(),y.end(),[&](int&a,int&b){
+            return a>b;
         });
-        int v;
-        for(int i=0;i<cnt;i++){
-            v=0;
-            for(int j=0;j<i;j++){
-                if(e[i].i==e[j].i ||  e[j].w>w[i].w || w[j].l>e[i].l) continue;
-                for(int x=0;x<n;x++){
-                    for(int y=0;y<n;y++){
-                        if(x==y) continue;
-                        dp[i][y]=max(dp[i][y],dp[j][x]+e[i].h);
-                    }
-                }
-            }
-        }
         int ans=0;
-        for(int i=0;i<cnt;i++){
-            for(int j=0;j<n;j++){
-                ans=max(dp[i][j],ans);
-            }
+        for(int i=0;i<y.size() && y[i];i++){
+            ans=max(ans,(i+1)*y[i]);
         }
         return ans;
-
+    }
+    int largestSubmatrix(vector<vector<int>>& matrix) {
+        int col=matrix[0].size(),row=matrix.size();
+        vector<int> y(col);
+        int ans=0,temp;
+        ans=ass(y,matrix[row-1]);
+        for(int i=row-2;i>=0;i--){
+            for(int j=0;j<col;j++){
+                if(matrix[i][j]){
+                    matrix[i][j]+=matrix[i+1][j];
+                }else{
+                    matrix[i][j]=0;
+                }
+            }
+            temp=ass(y,matrix[i]);
+            ans=max(temp,ans);
+        }
+        return ans;
     }
 };
-
-
 
 int main(){
 
