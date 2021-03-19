@@ -3,9 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "E:\\mysql-5.7.13-winx64\\include",
-                "E:\\mysql-5.7.13-winx64\\lib"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",

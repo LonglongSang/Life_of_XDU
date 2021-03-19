@@ -5,8 +5,10 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
-                "-g",
                 "${file}",
+                "-std=c++14",
+                "-lpthread",
+                "-g",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
@@ -62,12 +64,13 @@
             "label": "java compile",
             "command": "javac",
             "args": [
-                "${file}",
+                "${file}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "group": "build"
+            "group": "build",
+            "problemMatcher": []
         },
         {
             "type": "shell",
@@ -82,7 +85,7 @@
                 "cwd": "${workspaceFolder}"
             },
             "group": "build"
-        },
+        }
     ],
     "version": "2.0.0"
 }

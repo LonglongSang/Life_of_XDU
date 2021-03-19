@@ -15,56 +15,79 @@
 using namespace std;
 
 struct node{
-    int index;
-    int tot;
-}e[10000];
-    int largestRectangleArea(vector<int>& heights) {
-        int ans=0;
-        heights.push_back(0);
-        stack<int> S;
-        for(int i=0;i<heights.size();i++){
-            while(!S.empty() && heights[i]<heights[S.top()]){
-                int top=S.top();
-                S.pop();
-                ans=max(ans,heights[top]*(S.empty()?i:(i-S.top()-1)));
-            }
-            S.push(i);
-        }   
-        return ans;
-    }
+    int val;
+    int len;
+}lef[100005],righ[100005],temp[100005];
 class Solution {
 public:
-    int ass(vector<int> &y,vector<int> &x){
-        memcpy(y.data(),x.data(),sizeof(int)*x.size());
-        sort(y.begin(),y.end(),[&](int&a,int&b){
-            return a>b;
-        });
-        int ans=0;
-        for(int i=0;i<y.size() && y[i];i++){
-            ans=max(ans,(i+1)*y[i]);
-        }
-        return ans;
+    bool cmp(node&a,node&b){
+        return a.val<b.val;
     }
-    int largestSubmatrix(vector<vector<int>>& matrix) {
-        int col=matrix[0].size(),row=matrix.size();
-        vector<int> y(col);
-        int ans=0,temp;
-        ans=ass(y,matrix[row-1]);
-        for(int i=row-2;i>=0;i--){
-            for(int j=0;j<col;j++){
-                if(matrix[i][j]){
-                    matrix[i][j]+=matrix[i+1][j];
-                }else{
-                    matrix[i][j]=0;
-                }
+    int maximumScore(vector<int>& nums, int k) {
+        int cntLef=0,cntRigh=0;
+        lef[cntLef++]={nums[k],1};
+        for(int i=k-1;i>=0;i--){
+            lef[cntLef++]={min(lef[cntLef-1].val,nums[i]),k-i+1};
+        }
+        righ[cntRigh++]={nums[k],1};
+        for(int i=k+1,n=nums.size();i<n;i++){
+            righ[cntRigh++]={min(righ[cntRigh-1].val,nums[i]),i-k+1};
+        }
+        sort(lef,lef+cntLef,[](node&a,node&b){
+            if(a.val==b.val){
+                return a.len>b.len;
+            }else{
+                return a.val<b.val;
             }
-            temp=ass(y,matrix[i]);
-            ans=max(temp,ans);
+        });
+        //小到大
+        sort(righ,righ+cntRigh,[](node&a,node&b){
+            if(a.val==b.val){
+                return a.len>b.len;
+            }else{
+                return a.val<b.val;
+            }
+        });
+        //大到小
+        int n=cntLef;
+        cntLef=1;
+        for(int i=1;i<n;i++){
+            if(lef[i].val!=lef[cntLef-1].val){
+                lef[cntLef++]=lef[i];
+            }
+        }
+        n=cntRigh;
+        cntRigh=1;
+        for(int i=1;i<n;i++){
+            if(righ[i].val!=righ[cntRigh-1].val) righ[cntRigh++]=righ[i];
+        }
+        memcpy(temp,righ,sizeof(node)*cntRigh);
+        for(int i=cntRigh-2;i>=0;i--){
+            temp[i].len=max(temp[i].len,temp[i+1].len);
+        }
+        int ans=0;
+        for(int i=0;i<cntLef;i++){
+            int pos=lower_bound(temp,temp+cntRigh,lef[i],cmp)-temp;
+            if(pos==cntRigh) continue;
+            ans=max(ans,(temp[pos].len+lef[i].len-1)*lef[i].val);
+        }
+
+        memcpy(temp,lef,sizeof(node)*cntLef);
+        for(int i=cntLef-2;i>=0;i--){
+            temp[i].len=max(temp[i].len,temp[i+1].len);
+        }
+        for(int i=0;i<cntRigh;i++){
+            int pos=lower_bound(temp,temp+cntLef,righ[i],cmp)-temp;
+            if(pos==cntLef) continue;
+            ans=max(ans,(temp[pos].len+righ[i].len-1)*righ[i].val);
         }
         return ans;
+
     }
 };
 
 int main(){
 
 }
+
+
