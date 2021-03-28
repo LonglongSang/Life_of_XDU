@@ -63,10 +63,6 @@ int main ()
         cv.wait(lm,[](void)->bool{return mainOk;});
         pri(typ,4);
     }
-
-
-
-
     t.join();
     return 0;
 }

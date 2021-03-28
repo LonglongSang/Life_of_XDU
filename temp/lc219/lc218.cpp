@@ -14,64 +14,49 @@
 #include <stdio.h>
 using namespace std;
 
-
-//0 buy 找比我低的
-//1 sell 找比我高的
-
-#define N 4000000
-#defien M 14
-int trie[N][3];
-int tot;
-int cnt[30000];
-//0 
-//1
-//节点数
-void insert(int val,int cur,int step){
-    if(step==-1){
-        trie[cur][2]++;
-        return;
+using ll=long long;
+ll dev=1e9+7;
+ll qpow(ll a, ll p,ll dev){
+    //(a**p)%dev
+    ll ans=1;
+    while(p){
+        if(p&1) ans=(ans*a)%dev;
+        p/=2;
+        a=(a*a)%dev;
     }
-    int t=val>>step&1;
-    if(trie[cur][t]==-1){
-        trie[cur][t]=++tot;
-    }
-    insert(val,t[cur][t],step-1);
-    trie[cur][2]++;
-}
-int getVal(int val,int up,int step,int cur,bool limit){
-    if(step==-1){
-        return trie[cur][2];
-    }
-    int sum=0;
-    if(limit){
-        if(trie[cur][0] && (val>>step&1)<=(up>>step&1)) sum+=getVal(val,up,step-1,trie[cur][0],(val>>step&1)<(up>>step&1));
-        if(trie[cur][1] && (1^(val>>step&1))<=(up>>step&1)) sum+=getVal(val,up,step-1,trie[cur][1],(1^(val>>step&1))<(up>>step&1));
-        return sum;
-    }else{
-        return trie[cur][2];
-    }
-
-}
-void init(){
-    memset(trie,0,sizeof(int)*(tot+100));
-    memset(cnt,0,sizeof(cnt));
-    tot=0;
+    return ans;
 }
 class Solution {
 public:
-    int countPairs(vector<int>& nums, int low, int high) {
-        init();
-        //int getVal(int val,int up,int step,int cur,bool limit){
-        int ans=0;
-        for(auto&e:nums){
-            ans+=getVal(e,low,M,0,true)+getVal(e,high,M,0,true)+cnt[e^low];
-            insert(e,0,M);
-            cnt[e]++;
-            //void insert(int val,int cur,int step){
+    int maxNiceDivisors(int primeFactors) {
+        if(primeFactors<=3) return 1;
+        int two,th;
+        th=primeFactors/3;
+        two=primeFactors%3;
+        if(two==0){
+            
+        }else if(two==1){
+            th--;
+            two=2;
+        }else{
+            two=1;
         }
+        ll ans=(qpow(3LL,(ll)th,dev)*qpow(2LL,(ll)two,dev))%dev;
         return ans;
+
     }
 };
+
+
+
+
+
+
+
+
+
+
+
 
 
 int main(){
