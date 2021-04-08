@@ -1,0 +1,31 @@
+依赖软件：
+	cmake
+
+主文件夹:
+	包含include、src两个文件夹，以及README文件和CMakeLists.txt文件
+	
+编译生成可执行文件：
+	请在"主文件夹"下创建文件夹build
+	进入build，执行命令"cmake.."，不包含双引号
+	在build文件夹中执行命令"make"
+
+运行服务器：
+	返回至主文件夹，有新生成的文件夹bin
+	进入bin，内有main和conf两个文件
+	bin中的文件main即为服务器主体
+	在bin文件下执行命令："./main 5005"，意为运行本机的5005号端口作为websocket服务器的监听端口
+
+服务器可以执行的命令：
+	进入bin中
+	echo "shutdown" >> conf 命令可以关闭服务器
+	echo "output" >> conf 可以输出当前正在连接的客户端的ip和端口
+
+
+
+客户端测试：
+	http://coolaf.com/sfds/tool/chattest 请打开网页
+	在文本框中输入"ws://ip:port"（不包含双引号），并点击Connction
+	ip是你服务器的ipv4地址，port为websocket服务器的监听端口号
+	可以打开多个该网页测试多人聊天
+
+	
