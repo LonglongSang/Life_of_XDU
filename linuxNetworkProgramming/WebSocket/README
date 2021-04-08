@@ -1,5 +1,8 @@
+介绍：
+	一个简单的WebSocket服务端，可以实现客户端的连接和消息转发。
+
 依赖软件：
-	cmake
+	无
 
 主文件夹:
 	包含include、src两个文件夹，以及README文件和CMakeLists.txt文件
