@@ -490,13 +490,24 @@ void Server::main()
     int num;
     unsigned int pid=gettidv1();
     std::vector<std::thread> threadRunning;
+
+/*
+        sang::semaphoreQueue<unsigned short,OPEN_FILES_NUM> comingQ;
+        sang::semaphoreQueue<unsigned short,OPEN_FILES_NUM> bufferQ;
+        sang::semaphoreQueue<unsigned short,OPEN_FILES_NUM> messageQ;
+        sang::semaphoreQueue<unsigned short,OPEN_FILES_NUM> finBufferQ;
+    */
     threadRunning.push_back(std::thread(&Server::bufferMonitor,this));
+    //进行recv，把socket消息放到buffer
 
     threadRunning.push_back(std::thread(&Server::messageQMonitor,this));
+    //将buffer里的消息放到消息队列
 
     threadRunning.push_back(std::thread(&Server::haveMessageMonitor,this));
+    //只检查是否有报文
 
     threadRunning.push_back(std::thread(&Server::finBufferMonitor,this));
+    //转发消息
 
     threadRunning.push_back(std::thread(&Server::closeMonitor,this));
 

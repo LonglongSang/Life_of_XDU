@@ -1,0 +1,487 @@
+{
+	"info": {
+		"_postman_id": "fcf09e2f-e416-428c-aa16-e41989597136",
+		"name": "软件体系结构",
+		"description": "软件系统结构课程的大项目，实现一个医疗系统",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "查看数据库",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/printDatabaseInfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"printDatabaseInfo"
+					]
+				},
+				"description": "输出当前数据库中所有信息"
+			},
+			"response": []
+		},
+		{
+			"name": "清除预约信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/clearDatabase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"clearDatabase"
+					]
+				},
+				"description": "清除数据库中已有的预约信息"
+			},
+			"response": []
+		},
+		{
+			"name": "患者注册",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"12312\", \r\n    \"pass\": \"pass1\",\r\n    \"sex\": \"男\",\r\n    \"date\": \"1998-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"register"
+					]
+				},
+				"description": "患者注册"
+			},
+			"response": []
+		},
+		{
+			"name": "患者登录",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"uid\": \"4\",\r\n  \"pass\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"login"
+					],
+					"query": [
+						{
+							"key": "uid",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "pass",
+							"value": "1234",
+							"disabled": true
+						}
+					]
+				},
+				"description": " 患者/医生登陆"
+			},
+			"response": []
+		},
+		{
+			"name": "医生登录",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"uid\": \"0\",\r\n  \"pass\": \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"login"
+					]
+				},
+				"description": "方便测试，和患者登陆就只是数据不一样"
+			},
+			"response": []
+		},
+		{
+			"name": "用户信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/getPatientInfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"getPatientInfo"
+					]
+				},
+				"description": " 获取当前登录用户信息"
+			},
+			"response": []
+		},
+		{
+			"name": " 获得医生信息",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"uid\": \"0\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/getDoctorInfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"getDoctorInfo"
+					]
+				},
+				"description": " 获得某医生信息"
+			},
+			"response": []
+		},
+		{
+			"name": " 患者完善信息",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"用户1\",\r\n  \"pass\": \"pass1\",\r\n  \"sex\": \"男\",\r\n  \"date\": \"1998-01-01\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/setInfo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"setInfo"
+					]
+				},
+				"description": " 患者完善信息"
+			},
+			"response": []
+		},
+		{
+			"name": "登出",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/logout",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"logout"
+					]
+				},
+				"description": "患者登出"
+			},
+			"response": []
+		},
+		{
+			"name": "查看医生列表",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/patient/doctorsList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"doctorsList"
+					]
+				},
+				"description": "患者查看可预约情况/查看医生列表"
+			},
+			"response": []
+		},
+		{
+			"name": "预约挂号",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"uid\":\"0\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/orderDoctor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"orderDoctor"
+					]
+				},
+				"description": " 患者预约挂号"
+			},
+			"response": []
+		},
+		{
+			"name": "取消预约",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sid\" : \"0\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/cancelOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"cancelOrder"
+					]
+				},
+				"description": " 患者取消预约"
+			},
+			"response": []
+		},
+		{
+			"name": "患者自己的预约",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/listOrders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"listOrders"
+					]
+				},
+				"description": " 患者获取自己的所有预约"
+			},
+			"response": []
+		},
+		{
+			"name": "预约医生的患者",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/listPatients",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"listPatients"
+					]
+				},
+				"description": "医生端，获得预约该医生的所有患者"
+			},
+			"response": []
+		},
+		{
+			"name": "医生完成诊断",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"sid\":\"12\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/diagnose",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"diagnose"
+					]
+				},
+				"description": " 医生完成诊断"
+			},
+			"response": []
+		},
+		{
+			"name": "每日填报",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\": {\r\n    \"uid\": \"001\",\r\n    \"name\": \"用户1\",\r\n    \"sex\": \"男\",\r\n    \"age\": 18\r\n  },\r\n  \"date\": \"2021-5-20\",\r\n  \"body_temperature\": 36.5,\r\n  \"location\": 0, // 0-中国 1-港澳台或国外\r\n  \"get_out\": false, // 近 14 日是否出省\r\n  \"discomfort\": false, // 是否出现乏力、干咳等不适症状\r\n  \"touch\": false, // 是否接触其他具有不适症状的人群\r\n  \"risk\": \"心脏有点不舒服\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/patient/monitor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"monitor"
+					]
+				},
+				"description": " 患者每日填报"
+			},
+			"response": []
+		},
+		{
+			"name": "消息推送",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/pushNews",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"pushNews"
+					]
+				},
+				"description": " 患者接收消息推送"
+			},
+			"response": []
+		},
+		{
+			"name": "初始化数据库",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/patient/loadDatabase",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"patient",
+						"loadDatabase"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

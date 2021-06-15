@@ -3,7 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:\\Program Files (x86)\\Intel RealSense SDK 2.0 (Win7)\\include\\**"
+
             ],
             "defines": [
                 "_DEBUG",

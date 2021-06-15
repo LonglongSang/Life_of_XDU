@@ -1,0 +1,3 @@
+G:/Life_of_XDU/clionProject/cmake-build-debug/CMakeFiles/clionProject.dir
+G:/Life_of_XDU/clionProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Life_of_XDU/clionProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1035 @@
+
+Dir G:\Life_of_XDU\.git\hooks line: 0
+Dir G:\Life_of_XDU\.git\info line: 0
+Dir G:\Life_of_XDU\.git\logs\refs\heads line: 0
+Dir G:\Life_of_XDU\.git\logs\refs\remotes\origin line: 0
+Dir G:\Life_of_XDU\.git\logs\refs\remotes line: 0
+Dir G:\Life_of_XDU\.git\logs\refs line: 0
+Dir G:\Life_of_XDU\.git\logs line: 0
+Dir G:\Life_of_XDU\.git\objects\00 line: 0
+Dir G:\Life_of_XDU\.git\objects\01 line: 0
+Dir G:\Life_of_XDU\.git\objects\02 line: 0
+Dir G:\Life_of_XDU\.git\objects\03 line: 0
+Dir G:\Life_of_XDU\.git\objects\04 line: 0
+Dir G:\Life_of_XDU\.git\objects\05 line: 0
+Dir G:\Life_of_XDU\.git\objects\06 line: 0
+Dir G:\Life_of_XDU\.git\objects\07 line: 0
+Dir G:\Life_of_XDU\.git\objects\08 line: 0
+Dir G:\Life_of_XDU\.git\objects\09 line: 0
+Dir G:\Life_of_XDU\.git\objects\0a line: 0
+Dir G:\Life_of_XDU\.git\objects\0b line: 0
+Dir G:\Life_of_XDU\.git\objects\0c line: 0
+Dir G:\Life_of_XDU\.git\objects\0d line: 0
+Dir G:\Life_of_XDU\.git\objects\0e line: 0
+Dir G:\Life_of_XDU\.git\objects\0f line: 0
+Dir G:\Life_of_XDU\.git\objects\10 line: 0
+Dir G:\Life_of_XDU\.git\objects\11 line: 0
+Dir G:\Life_of_XDU\.git\objects\12 line: 0
+Dir G:\Life_of_XDU\.git\objects\13 line: 0
+Dir G:\Life_of_XDU\.git\objects\14 line: 0
+Dir G:\Life_of_XDU\.git\objects\15 line: 0
+Dir G:\Life_of_XDU\.git\objects\16 line: 0
+Dir G:\Life_of_XDU\.git\objects\17 line: 0
+Dir G:\Life_of_XDU\.git\objects\18 line: 0
+Dir G:\Life_of_XDU\.git\objects\19 line: 0
+Dir G:\Life_of_XDU\.git\objects\1a line: 0
+Dir G:\Life_of_XDU\.git\objects\1b line: 0
+Dir G:\Life_of_XDU\.git\objects\1c line: 0
+Dir G:\Life_of_XDU\.git\objects\1d line: 0
+Dir G:\Life_of_XDU\.git\objects\1e line: 0
+Dir G:\Life_of_XDU\.git\objects\1f line: 0
+Dir G:\Life_of_XDU\.git\objects\20 line: 0
+Dir G:\Life_of_XDU\.git\objects\21 line: 0
+Dir G:\Life_of_XDU\.git\objects\22 line: 0
+Dir G:\Life_of_XDU\.git\objects\23 line: 0
+Dir G:\Life_of_XDU\.git\objects\24 line: 0
+Dir G:\Life_of_XDU\.git\objects\25 line: 0
+Dir G:\Life_of_XDU\.git\objects\26 line: 0
+Dir G:\Life_of_XDU\.git\objects\27 line: 0
+Dir G:\Life_of_XDU\.git\objects\28 line: 0
+Dir G:\Life_of_XDU\.git\objects\29 line: 0
+Dir G:\Life_of_XDU\.git\objects\2a line: 0
+Dir G:\Life_of_XDU\.git\objects\2b line: 0
+Dir G:\Life_of_XDU\.git\objects\2c line: 0
+Dir G:\Life_of_XDU\.git\objects\2d line: 0
+Dir G:\Life_of_XDU\.git\objects\2e line: 0
+Dir G:\Life_of_XDU\.git\objects\2f line: 0
+Dir G:\Life_of_XDU\.git\objects\30 line: 0
+Dir G:\Life_of_XDU\.git\objects\31 line: 0
+Dir G:\Life_of_XDU\.git\objects\32 line: 0
+Dir G:\Life_of_XDU\.git\objects\33 line: 0
+Dir G:\Life_of_XDU\.git\objects\34 line: 0
+Dir G:\Life_of_XDU\.git\objects\35 line: 0
+Dir G:\Life_of_XDU\.git\objects\36 line: 0
+Dir G:\Life_of_XDU\.git\objects\37 line: 0
+Dir G:\Life_of_XDU\.git\objects\38 line: 0
+Dir G:\Life_of_XDU\.git\objects\39 line: 0
+Dir G:\Life_of_XDU\.git\objects\3a line: 0
+Dir G:\Life_of_XDU\.git\objects\3b line: 0
+Dir G:\Life_of_XDU\.git\objects\3c line: 0
+Dir G:\Life_of_XDU\.git\objects\3d line: 0
+Dir G:\Life_of_XDU\.git\objects\3e line: 0
+Dir G:\Life_of_XDU\.git\objects\3f line: 0
+Dir G:\Life_of_XDU\.git\objects\40 line: 0
+Dir G:\Life_of_XDU\.git\objects\41 line: 0
+Dir G:\Life_of_XDU\.git\objects\42 line: 0
+Dir G:\Life_of_XDU\.git\objects\43 line: 0
+Dir G:\Life_of_XDU\.git\objects\44 line: 0
+Dir G:\Life_of_XDU\.git\objects\45 line: 0
+Dir G:\Life_of_XDU\.git\objects\46 line: 0
+Dir G:\Life_of_XDU\.git\objects\47 line: 0
+Dir G:\Life_of_XDU\.git\objects\48 line: 0
+Dir G:\Life_of_XDU\.git\objects\49 line: 0
+Dir G:\Life_of_XDU\.git\objects\4a line: 0
+Dir G:\Life_of_XDU\.git\objects\4b line: 0
+Dir G:\Life_of_XDU\.git\objects\4c line: 0
+Dir G:\Life_of_XDU\.git\objects\4d line: 0
+Dir G:\Life_of_XDU\.git\objects\4e line: 0
+Dir G:\Life_of_XDU\.git\objects\4f line: 0
+Dir G:\Life_of_XDU\.git\objects\50 line: 0
+Dir G:\Life_of_XDU\.git\objects\51 line: 0
+Dir G:\Life_of_XDU\.git\objects\52 line: 0
+Dir G:\Life_of_XDU\.git\objects\53 line: 0
+Dir G:\Life_of_XDU\.git\objects\54 line: 0
+Dir G:\Life_of_XDU\.git\objects\55 line: 0
+Dir G:\Life_of_XDU\.git\objects\56 line: 0
+Dir G:\Life_of_XDU\.git\objects\57 line: 0
+Dir G:\Life_of_XDU\.git\objects\58 line: 0
+Dir G:\Life_of_XDU\.git\objects\59 line: 0
+Dir G:\Life_of_XDU\.git\objects\5a line: 0
+Dir G:\Life_of_XDU\.git\objects\5b line: 0
+Dir G:\Life_of_XDU\.git\objects\5c line: 0
+Dir G:\Life_of_XDU\.git\objects\5d line: 0
+Dir G:\Life_of_XDU\.git\objects\5e line: 0
+Dir G:\Life_of_XDU\.git\objects\5f line: 0
+Dir G:\Life_of_XDU\.git\objects\60 line: 0
+Dir G:\Life_of_XDU\.git\objects\61 line: 0
+Dir G:\Life_of_XDU\.git\objects\62 line: 0
+Dir G:\Life_of_XDU\.git\objects\63 line: 0
+Dir G:\Life_of_XDU\.git\objects\64 line: 0
+Dir G:\Life_of_XDU\.git\objects\65 line: 0
+Dir G:\Life_of_XDU\.git\objects\66 line: 0
+Dir G:\Life_of_XDU\.git\objects\67 line: 0
+Dir G:\Life_of_XDU\.git\objects\68 line: 0
+Dir G:\Life_of_XDU\.git\objects\69 line: 0
+Dir G:\Life_of_XDU\.git\objects\6a line: 0
+Dir G:\Life_of_XDU\.git\objects\6b line: 0
+Dir G:\Life_of_XDU\.git\objects\6c line: 0
+Dir G:\Life_of_XDU\.git\objects\6d line: 0
+Dir G:\Life_of_XDU\.git\objects\6e line: 0
+Dir G:\Life_of_XDU\.git\objects\6f line: 0
+Dir G:\Life_of_XDU\.git\objects\70 line: 0
+Dir G:\Life_of_XDU\.git\objects\71 line: 0
+Dir G:\Life_of_XDU\.git\objects\72 line: 0
+Dir G:\Life_of_XDU\.git\objects\73 line: 0
+Dir G:\Life_of_XDU\.git\objects\74 line: 0
+Dir G:\Life_of_XDU\.git\objects\75 line: 0
+Dir G:\Life_of_XDU\.git\objects\76 line: 0
+Dir G:\Life_of_XDU\.git\objects\77 line: 0
+Dir G:\Life_of_XDU\.git\objects\78 line: 0
+Dir G:\Life_of_XDU\.git\objects\79 line: 0
+Dir G:\Life_of_XDU\.git\objects\7a line: 0
+Dir G:\Life_of_XDU\.git\objects\7b line: 0
+Dir G:\Life_of_XDU\.git\objects\7c line: 0
+Dir G:\Life_of_XDU\.git\objects\7d line: 0
+Dir G:\Life_of_XDU\.git\objects\7e line: 0
+Dir G:\Life_of_XDU\.git\objects\7f line: 0
+Dir G:\Life_of_XDU\.git\objects\80 line: 0
+Dir G:\Life_of_XDU\.git\objects\81 line: 0
+Dir G:\Life_of_XDU\.git\objects\82 line: 0
+Dir G:\Life_of_XDU\.git\objects\83 line: 0
+Dir G:\Life_of_XDU\.git\objects\84 line: 0
+Dir G:\Life_of_XDU\.git\objects\85 line: 0
+Dir G:\Life_of_XDU\.git\objects\86 line: 0
+Dir G:\Life_of_XDU\.git\objects\87 line: 0
+Dir G:\Life_of_XDU\.git\objects\88 line: 0
+Dir G:\Life_of_XDU\.git\objects\89 line: 0
+Dir G:\Life_of_XDU\.git\objects\8a line: 0
+Dir G:\Life_of_XDU\.git\objects\8b line: 0
+Dir G:\Life_of_XDU\.git\objects\8c line: 0
+Dir G:\Life_of_XDU\.git\objects\8d line: 0
+Dir G:\Life_of_XDU\.git\objects\8e line: 0
+Dir G:\Life_of_XDU\.git\objects\8f line: 0
+Dir G:\Life_of_XDU\.git\objects\90 line: 0
+Dir G:\Life_of_XDU\.git\objects\91 line: 0
+Dir G:\Life_of_XDU\.git\objects\92 line: 0
+Dir G:\Life_of_XDU\.git\objects\93 line: 0
+Dir G:\Life_of_XDU\.git\objects\94 line: 0
+Dir G:\Life_of_XDU\.git\objects\95 line: 0
+Dir G:\Life_of_XDU\.git\objects\96 line: 0
+Dir G:\Life_of_XDU\.git\objects\97 line: 0
+Dir G:\Life_of_XDU\.git\objects\98 line: 0
+Dir G:\Life_of_XDU\.git\objects\99 line: 0
+Dir G:\Life_of_XDU\.git\objects\9a line: 0
+Dir G:\Life_of_XDU\.git\objects\9b line: 0
+Dir G:\Life_of_XDU\.git\objects\9c line: 0
+Dir G:\Life_of_XDU\.git\objects\9d line: 0
+Dir G:\Life_of_XDU\.git\objects\9e line: 0
+Dir G:\Life_of_XDU\.git\objects\9f line: 0
+Dir G:\Life_of_XDU\.git\objects\a0 line: 0
+Dir G:\Life_of_XDU\.git\objects\a1 line: 0
+Dir G:\Life_of_XDU\.git\objects\a2 line: 0
+Dir G:\Life_of_XDU\.git\objects\a3 line: 0
+Dir G:\Life_of_XDU\.git\objects\a4 line: 0
+Dir G:\Life_of_XDU\.git\objects\a5 line: 0
+Dir G:\Life_of_XDU\.git\objects\a6 line: 0
+Dir G:\Life_of_XDU\.git\objects\a7 line: 0
+Dir G:\Life_of_XDU\.git\objects\a8 line: 0
+Dir G:\Life_of_XDU\.git\objects\a9 line: 0
+Dir G:\Life_of_XDU\.git\objects\ab line: 0
+Dir G:\Life_of_XDU\.git\objects\ac line: 0
+Dir G:\Life_of_XDU\.git\objects\ad line: 0
+Dir G:\Life_of_XDU\.git\objects\ae line: 0
+Dir G:\Life_of_XDU\.git\objects\af line: 0
+Dir G:\Life_of_XDU\.git\objects\b0 line: 0
+Dir G:\Life_of_XDU\.git\objects\b1 line: 0
+Dir G:\Life_of_XDU\.git\objects\b2 line: 0
+Dir G:\Life_of_XDU\.git\objects\b3 line: 0
+Dir G:\Life_of_XDU\.git\objects\b4 line: 0
+Dir G:\Life_of_XDU\.git\objects\b5 line: 0
+Dir G:\Life_of_XDU\.git\objects\b6 line: 0
+Dir G:\Life_of_XDU\.git\objects\b7 line: 0
+Dir G:\Life_of_XDU\.git\objects\b8 line: 0
+Dir G:\Life_of_XDU\.git\objects\b9 line: 0
+Dir G:\Life_of_XDU\.git\objects\ba line: 0
+Dir G:\Life_of_XDU\.git\objects\bb line: 0
+Dir G:\Life_of_XDU\.git\objects\bc line: 0
+Dir G:\Life_of_XDU\.git\objects\bd line: 0
+Dir G:\Life_of_XDU\.git\objects\be line: 0
+Dir G:\Life_of_XDU\.git\objects\bf line: 0
+Dir G:\Life_of_XDU\.git\objects\c0 line: 0
+Dir G:\Life_of_XDU\.git\objects\c1 line: 0
+Dir G:\Life_of_XDU\.git\objects\c2 line: 0
+Dir G:\Life_of_XDU\.git\objects\c3 line: 0
+Dir G:\Life_of_XDU\.git\objects\c4 line: 0
+Dir G:\Life_of_XDU\.git\objects\c5 line: 0
+Dir G:\Life_of_XDU\.git\objects\c6 line: 0
+Dir G:\Life_of_XDU\.git\objects\c7 line: 0
+Dir G:\Life_of_XDU\.git\objects\c8 line: 0
+Dir G:\Life_of_XDU\.git\objects\c9 line: 0
+Dir G:\Life_of_XDU\.git\objects\ca line: 0
+Dir G:\Life_of_XDU\.git\objects\cb line: 0
+Dir G:\Life_of_XDU\.git\objects\cc line: 0
+Dir G:\Life_of_XDU\.git\objects\cd line: 0
+Dir G:\Life_of_XDU\.git\objects\ce line: 0
+Dir G:\Life_of_XDU\.git\objects\cf line: 0
+Dir G:\Life_of_XDU\.git\objects\d0 line: 0
+Dir G:\Life_of_XDU\.git\objects\d1 line: 0
+Dir G:\Life_of_XDU\.git\objects\d2 line: 0
+Dir G:\Life_of_XDU\.git\objects\d3 line: 0
+Dir G:\Life_of_XDU\.git\objects\d4 line: 0
+Dir G:\Life_of_XDU\.git\objects\d5 line: 0
+Dir G:\Life_of_XDU\.git\objects\d6 line: 0
+Dir G:\Life_of_XDU\.git\objects\d7 line: 0
+Dir G:\Life_of_XDU\.git\objects\d8 line: 0
+Dir G:\Life_of_XDU\.git\objects\d9 line: 0
+Dir G:\Life_of_XDU\.git\objects\da line: 0
+Dir G:\Life_of_XDU\.git\objects\db line: 0
+Dir G:\Life_of_XDU\.git\objects\dc line: 0
+Dir G:\Life_of_XDU\.git\objects\dd line: 0
+Dir G:\Life_of_XDU\.git\objects\de line: 0
+Dir G:\Life_of_XDU\.git\objects\df line: 0
+Dir G:\Life_of_XDU\.git\objects\e0 line: 0
+Dir G:\Life_of_XDU\.git\objects\e1 line: 0
+Dir G:\Life_of_XDU\.git\objects\e2 line: 0
+Dir G:\Life_of_XDU\.git\objects\e3 line: 0
+Dir G:\Life_of_XDU\.git\objects\e4 line: 0
+Dir G:\Life_of_XDU\.git\objects\e5 line: 0
+Dir G:\Life_of_XDU\.git\objects\e6 line: 0
+Dir G:\Life_of_XDU\.git\objects\e7 line: 0
+Dir G:\Life_of_XDU\.git\objects\e8 line: 0
+Dir G:\Life_of_XDU\.git\objects\e9 line: 0
+Dir G:\Life_of_XDU\.git\objects\ea line: 0
+Dir G:\Life_of_XDU\.git\objects\eb line: 0
+Dir G:\Life_of_XDU\.git\objects\ec line: 0
+Dir G:\Life_of_XDU\.git\objects\ed line: 0
+Dir G:\Life_of_XDU\.git\objects\ee line: 0
+Dir G:\Life_of_XDU\.git\objects\ef line: 0
+Dir G:\Life_of_XDU\.git\objects\f0 line: 0
+Dir G:\Life_of_XDU\.git\objects\f1 line: 0
+Dir G:\Life_of_XDU\.git\objects\f2 line: 0
+Dir G:\Life_of_XDU\.git\objects\f3 line: 0
+Dir G:\Life_of_XDU\.git\objects\f4 line: 0
+Dir G:\Life_of_XDU\.git\objects\f5 line: 0
+Dir G:\Life_of_XDU\.git\objects\f6 line: 0
+Dir G:\Life_of_XDU\.git\objects\f7 line: 0
+Dir G:\Life_of_XDU\.git\objects\f8 line: 0
+Dir G:\Life_of_XDU\.git\objects\f9 line: 0
+Dir G:\Life_of_XDU\.git\objects\fa line: 0
+Dir G:\Life_of_XDU\.git\objects\fb line: 0
+Dir G:\Life_of_XDU\.git\objects\fc line: 0
+Dir G:\Life_of_XDU\.git\objects\fd line: 0
+Dir G:\Life_of_XDU\.git\objects\fe line: 0
+Dir G:\Life_of_XDU\.git\objects\ff line: 0
+Dir G:\Life_of_XDU\.git\objects\info line: 0
+Dir G:\Life_of_XDU\.git\objects\pack line: 0
+Dir G:\Life_of_XDU\.git\objects line: 0
+Dir G:\Life_of_XDU\.git\refs\heads line: 0
+Dir G:\Life_of_XDU\.git\refs\remotes\origin line: 0
+Dir G:\Life_of_XDU\.git\refs\remotes line: 0
+Dir G:\Life_of_XDU\.git\refs\tags line: 0
+Dir G:\Life_of_XDU\.git\refs line: 0
+Dir G:\Life_of_XDU\.git line: 0
+Dir G:\Life_of_XDU\.vscode line: 0
+Dir G:\Life_of_XDU\Baidu_app_competition line: 0
+Dir G:\Life_of_XDU\berryPro\.vscode line: 0
+File: G:\Life_of_XDU\berryPro\helloworld.cpp line: 12
+Dir G:\Life_of_XDU\berryPro\REAL\ipch\real-4426c84c line: 0
+Dir G:\Life_of_XDU\berryPro\REAL\ipch line: 0
+File: G:\Life_of_XDU\berryPro\REAL\REAL\a.cpp line: 13
+Dir G:\Life_of_XDU\berryPro\REAL\REAL line: 13
+Dir G:\Life_of_XDU\berryPro\REAL line: 13
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\.vs\realSense2\v14 line: 0
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\.vs\realSense2 line: 0
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\.vs line: 0
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\Debug line: 0
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\realSense2\Debug\realSense2.tlog line: 0
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\realSense2\Debug line: 0
+File: G:\Life_of_XDU\berryPro\realSense2\realSense2\realSense2\startup.cpp line: 6
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2\realSense2 line: 6
+Dir G:\Life_of_XDU\berryPro\realSense2\realSense2 line: 6
+Dir G:\Life_of_XDU\berryPro\realSense2 line: 6
+Dir G:\Life_of_XDU\berryPro line: 31
+File: G:\Life_of_XDU\C_programming\file.cpp line: 48
+File: G:\Life_of_XDU\C_programming\time.cpp line: 76
+Dir G:\Life_of_XDU\C_programming line: 124
+File: G:\Life_of_XDU\Data Structure\a.cpp line: 40
+File: G:\Life_of_XDU\Data Structure\Experiment 1\一元多项式相加、减运算器.cpp line: 113
+File: G:\Life_of_XDU\Data Structure\Experiment 1\单链表基本运算.cpp line: 142
+File: G:\Life_of_XDU\Data Structure\Experiment 1\约瑟夫.cpp line: 105
+File: G:\Life_of_XDU\Data Structure\Experiment 1\链表排序.cpp line: 97
+Dir G:\Life_of_XDU\Data Structure\Experiment 1 line: 457
+File: G:\Life_of_XDU\Data Structure\Experiment 2\数制转换.cpp line: 36
+File: G:\Life_of_XDU\Data Structure\Experiment 2\迷宫问题.cpp line: 182
+File: G:\Life_of_XDU\Data Structure\Experiment 2\迷宫问题_泛化编程版.cpp line: 182
+Dir G:\Life_of_XDU\Data Structure\Experiment 2 line: 400
+File: G:\Life_of_XDU\Data Structure\Experiment 3\question.cpp line: 429
+File: G:\Life_of_XDU\Data Structure\Experiment 3\some_test.cpp line: 53
+File: G:\Life_of_XDU\Data Structure\Experiment 3\String.cpp line: 312
+File: G:\Life_of_XDU\Data Structure\Experiment 3\temp.cpp line: 20
+Dir G:\Life_of_XDU\Data Structure\Experiment 3 line: 814
+File: G:\Life_of_XDU\Data Structure\Experiment 4\二叉树遍历运算.cpp line: 77
+File: G:\Life_of_XDU\Data Structure\Experiment 4\哈夫曼编码译码器.cpp line: 181
+Dir G:\Life_of_XDU\Data Structure\Experiment 4 line: 258
+File: G:\Life_of_XDU\Data Structure\Experiment 5\AVL.cpp line: 317
+File: G:\Life_of_XDU\Data Structure\Experiment 5\binary_search.cpp line: 46
+File: G:\Life_of_XDU\Data Structure\Experiment 5\Hash.cpp line: 227
+Dir G:\Life_of_XDU\Data Structure\Experiment 5 line: 590
+File: G:\Life_of_XDU\Data Structure\Experiment 6\bubbleSort.cpp line: 15
+File: G:\Life_of_XDU\Data Structure\Experiment 6\combination.cpp line: 83
+File: G:\Life_of_XDU\Data Structure\Experiment 6\heapSort.cpp line: 110
+File: G:\Life_of_XDU\Data Structure\Experiment 6\insertSort.cpp line: 28
+File: G:\Life_of_XDU\Data Structure\Experiment 6\mergeSort.cpp line: 28
+File: G:\Life_of_XDU\Data Structure\Experiment 6\quickSort.cpp line: 22
+File: G:\Life_of_XDU\Data Structure\Experiment 6\selectSort.cpp line: 18
+File: G:\Life_of_XDU\Data Structure\Experiment 6\testForTime\bubbleSort.cpp line: 90
+File: G:\Life_of_XDU\Data Structure\Experiment 6\testForTime\heapSort.cpp line: 163
+File: G:\Life_of_XDU\Data Structure\Experiment 6\testForTime\insertSort.cpp line: 107
+File: G:\Life_of_XDU\Data Structure\Experiment 6\testForTime\mergeSort.cpp line: 101
+File: G:\Life_of_XDU\Data Structure\Experiment 6\testForTime\quickSort.cpp line: 65
+File: G:\Life_of_XDU\Data Structure\Experiment 6\testForTime\selectSort.cpp line: 93
+Dir G:\Life_of_XDU\Data Structure\Experiment 6\testForTime line: 619
+Dir G:\Life_of_XDU\Data Structure\Experiment 6 line: 923
+File: G:\Life_of_XDU\Data Structure\Experiment 7\Graph.cpp line: 165
+File: G:\Life_of_XDU\Data Structure\Experiment 7\Graph_unfinihshed.cpp line: 97
+Dir G:\Life_of_XDU\Data Structure\Experiment 7 line: 262
+File: G:\Life_of_XDU\Data Structure\二叉树练习\7-1 顺序存储的二叉树的最近的公共祖先问题 .c line: 38
+File: G:\Life_of_XDU\Data Structure\二叉树练习\7-3 家谱处理 (30分).c line: 101
+File: G:\Life_of_XDU\Data Structure\二叉树练习\7-5 愿天下有情人都是失散多年的兄妹 .c line: 60
+File: G:\Life_of_XDU\Data Structure\二叉树练习\7-6 哈夫曼编码 (30分).cpp line: 84
+File: G:\Life_of_XDU\Data Structure\二叉树练习\7-7 社交集群 (30分).c line: 47
+File: G:\Life_of_XDU\Data Structure\二叉树练习\朋友圈.c line: 45
+Dir G:\Life_of_XDU\Data Structure\二叉树练习 line: 375
+File: G:\Life_of_XDU\Data Structure\查找\7-1 集合相似度 (25分).cpp line: 42
+File: G:\Life_of_XDU\Data Structure\查找\7-2 二叉搜索树的最近公共祖先 (30分).cpp line: 67
+File: G:\Life_of_XDU\Data Structure\查找\7-3 词频统计 (30分).cpp line: 105
+File: G:\Life_of_XDU\Data Structure\查找\7-4 整型关键字的散列映射 (25分).cpp line: 45
+File: G:\Life_of_XDU\Data Structure\查找\7-5 单身狗 (25分).cpp line: 46
+File: G:\Life_of_XDU\Data Structure\查找\7-6 字符串关键字的散列映射 (25分).cpp line: 54
+File: G:\Life_of_XDU\Data Structure\查找\7-7 航空公司VIP客户查询 (25分).cpp line: 61
+File: G:\Life_of_XDU\Data Structure\查找\7-9 寻找大富翁 (25分).cpp line: 38
+File: G:\Life_of_XDU\Data Structure\查找\temp.cpp line: 52
+Dir G:\Life_of_XDU\Data Structure\查找 line: 510
+Dir G:\Life_of_XDU\Data Structure line: 4629
+File: G:\Life_of_XDU\DesignMode\factoryMode\factory.cpp line: 77
+File: G:\Life_of_XDU\DesignMode\factoryMode\simpleFactory.cpp line: 67
+Dir G:\Life_of_XDU\DesignMode\factoryMode line: 144
+File: G:\Life_of_XDU\DesignMode\prototypeMode\prototypeMode.cpp line: 53
+Dir G:\Life_of_XDU\DesignMode\prototypeMode line: 53
+File: G:\Life_of_XDU\DesignMode\singleton\sigletonThreadSafe.cpp line: 49
+File: G:\Life_of_XDU\DesignMode\singleton\singleton.cpp line: 42
+Dir G:\Life_of_XDU\DesignMode\singleton line: 91
+File: G:\Life_of_XDU\DesignMode\strategyMode\strategyMode.cpp line: 44
+Dir G:\Life_of_XDU\DesignMode\strategyMode line: 44
+File: G:\Life_of_XDU\DesignMode\templateMode\templateMode.cpp line: 74
+Dir G:\Life_of_XDU\DesignMode\templateMode line: 74
+Dir G:\Life_of_XDU\DesignMode line: 406
+File: G:\Life_of_XDU\Discrete mathmatics\a.cpp line: 134
+File: G:\Life_of_XDU\Discrete mathmatics\calDirectGraphDegree.cpp line: 54
+File: G:\Life_of_XDU\Discrete mathmatics\Kruskal\Kruskal.cpp line: 109
+Dir G:\Life_of_XDU\Discrete mathmatics\Kruskal line: 109
+Dir G:\Life_of_XDU\Discrete mathmatics line: 297
+File: G:\Life_of_XDU\Java_Leanring\First\Array.java line: 55
+File: G:\Life_of_XDU\Java_Leanring\First\BasicDataType.java line: 38
+File: G:\Life_of_XDU\Java_Leanring\First\BitSet.java line: 44
+File: G:\Life_of_XDU\Java_Leanring\First\ClassExample.java line: 59
+File: G:\Life_of_XDU\Java_Leanring\First\ClassVariable.java line: 25
+File: G:\Life_of_XDU\Java_Leanring\First\Deque.java line: 55
+File: G:\Life_of_XDU\Java_Leanring\First\Hash.java line: 10
+File: G:\Life_of_XDU\Java_Leanring\First\PriorityQueue.java line: 0
+File: G:\Life_of_XDU\Java_Leanring\First\q.cpp line: 94
+File: G:\Life_of_XDU\Java_Leanring\First\staticTest.java line: 38
+File: G:\Life_of_XDU\Java_Leanring\First\Test.java line: 11
+Dir G:\Life_of_XDU\Java_Leanring\First line: 429
+Dir G:\Life_of_XDU\Java_Leanring\ideaProject\.idea line: 0
+Dir G:\Life_of_XDU\Java_Leanring\ideaProject line: 0
+File: G:\Life_of_XDU\Java_Leanring\JAVA课\a.java line: 103
+File: G:\Life_of_XDU\Java_Leanring\JAVA课\exp1\main.java line: 106
+Dir G:\Life_of_XDU\Java_Leanring\JAVA课\exp1 line: 106
+File: G:\Life_of_XDU\Java_Leanring\JAVA课\exp2\q.java line: 286
+Dir G:\Life_of_XDU\Java_Leanring\JAVA课\exp2 line: 286
+Dir G:\Life_of_XDU\Java_Leanring\JAVA课 line: 495
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\.idea line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www\com\basicgrammer\www line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www\com\basicgrammer line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www\com line: 0
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www\Doc.java line: 38
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www\index-files line: 0
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www\Package.java line: 11
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer\www line: 49
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\basicgrammer line: 49
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\basis\_enum\__enum01.java line: 52
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\basis\_enum\__enum02.java line: 28
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\basis\_enum\__enum03.java line: 27
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\basis\_enum line: 107
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\basis line: 107
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\exception\__exception01.java line: 77
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\exception\__exception02.java line: 33
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\exception\__exception03.java line: 7
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\exception line: 117
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io01.java line: 22
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io02.java line: 31
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io03_copyFile.java line: 46
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io04_serializable.java line: 75
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io05_DataInputStream_DataOutputStream.java line: 75
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io06_BufferedInputStream.java line: 138
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io07_SequenceInputStream.java line: 114
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream\__io08_PrintStream.java line: 25
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\byteStream line: 526
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream\temp.java line: 21
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream\__01_CharArrayReader.java line: 78
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream\__02_CharArrayWriter.java line: 22
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream\__03_StringWriter_StringReader.java line: 33
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream\__04_File_Buffered.java line: 101
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream\__05.java line: 17
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\charStream line: 272
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\file\testDelete\a line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\file\testDelete line: 0
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\file\__01_delete.java line: 36
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\file\__02.java line: 114
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\file line: 150
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\MyReader.java line: 96
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io\__01_Scanner.java line: 59
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\io line: 1103
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lambda\__lambda01.java line: 67
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lambda\__lambda02.java line: 33
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lambda\__lambda03.java line: 33
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lambda line: 133
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lintCode\BankSystem.java line: 91
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lintCode\CoffeeMaker.java line: 105
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lintCode\Solution.java line: 57
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lintCode\temp.java line: 36
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\lintCode line: 289
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread01.java line: 26
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread02.java line: 57
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread03.java line: 46
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread04_staticProxy.java line: 92
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread05_yield_sleep.java line: 25
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread06_state.java line: 30
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread07_priority.java line: 30
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread08_daemon.java line: 45
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread09_synchronized.java line: 65
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread10_Retranlock.java line: 45
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread11_ProducerAndConsumer.java line: 99
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread\__thread12_ProducerAndConsumer_ReentrantLock.java line: 107
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\multiThread line: 667
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\net\talkTCP\client.java line: 24
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\net\talkTCP\server.java line: 37
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\net\talkTCP line: 61
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\net\__net01.java line: 59
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer\net line: 120
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\grammer line: 2536
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning\www\io.java line: 97
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning\www\Main.java line: 155
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning\www\MyThread.java line: 34
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning\www\q.java line: 103
+File: G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning\www\t.java line: 97
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning\www line: 486
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com\learning line: 486
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src\com line: 3071
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer\src line: 3071
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\basicGrammer line: 3071
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\basicgrammer\www\com\basicgrammer\www line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\basicgrammer\www\com\basicgrammer line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\basicgrammer\www\com line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\basicgrammer\www\index-files line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\basicgrammer\www line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\basicgrammer line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\basis\_enum line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\basis line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\exception line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\io\byteStream line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\io\charStream line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\io\file\testDelete\a line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\io\file\testDelete line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\io\file line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\io line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\lambda line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\lintCode line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\multiThread line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\net\talkTCP line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer\net line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\grammer line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\learning\www line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com\learning line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer\com line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production\basicGrammer line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out\production line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen\out line: 0
+Dir G:\Life_of_XDU\Java_Leanring\kuangShen line: 3071
+Dir G:\Life_of_XDU\Java_Leanring\markdown\HowToRunning.md line: 0
+Dir G:\Life_of_XDU\Java_Leanring\markdown line: 0
+Dir G:\Life_of_XDU\Java_Leanring line: 3995
+File: G:\Life_of_XDU\linuxNetworkProgramming\atomic\ex01.cpp line: 33
+Dir G:\Life_of_XDU\linuxNetworkProgramming\atomic line: 33
+File: G:\Life_of_XDU\linuxNetworkProgramming\epollServer_alpha1.1\client.cpp line: 114
+File: G:\Life_of_XDU\linuxNetworkProgramming\epollServer_alpha1.1\main.cpp line: 81
+File: G:\Life_of_XDU\linuxNetworkProgramming\epollServer_alpha1.1\serverA.cpp line: 339
+Dir G:\Life_of_XDU\linuxNetworkProgramming\epollServer_alpha1.1 line: 534
+File: G:\Life_of_XDU\linuxNetworkProgramming\networkProgramming\de.cpp line: 47
+File: G:\Life_of_XDU\linuxNetworkProgramming\networkProgramming\demo1.cpp line: 36
+File: G:\Life_of_XDU\linuxNetworkProgramming\networkProgramming\demo2.cpp line: 18
+File: G:\Life_of_XDU\linuxNetworkProgramming\networkProgramming\demo3.cpp line: 38
+Dir G:\Life_of_XDU\linuxNetworkProgramming\networkProgramming line: 139
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex01.cpp line: 40
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex02.cpp line: 19
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex03.cpp line: 25
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex04.cpp line: 36
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex05.cpp line: 41
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex06_mutex.cpp line: 121
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex07_backTransefer.cpp line: 226
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex08_producerConsumerModel.cpp line: 97
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex09_condition_variable01.cpp line: 93
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex10_condition_variable02.cpp line: 69
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\ex11_semaphore.cpp line: 86
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\example.cpp line: 56
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\mutex.cpp line: 37
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\polyThreadSum.cpp line: 93
+File: G:\Life_of_XDU\linuxNetworkProgramming\thread\test.cpp line: 49
+Dir G:\Life_of_XDU\linuxNetworkProgramming\thread line: 1088
+File: G:\Life_of_XDU\linuxNetworkProgramming\threadPoll\ex01.cpp line: 58
+File: G:\Life_of_XDU\linuxNetworkProgramming\threadPoll\ex02.cpp line: 26
+Dir G:\Life_of_XDU\linuxNetworkProgramming\threadPoll line: 84
+Dir G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\include line: 0
+File: G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\src\base64.cpp line: 51
+File: G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\src\main.cpp line: 114
+File: G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\src\serverA.cpp line: 595
+File: G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\src\sha1.cpp line: 588
+File: G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\src\websocket.cpp line: 381
+Dir G:\Life_of_XDU\linuxNetworkProgramming\WebSocket\src line: 1729
+Dir G:\Life_of_XDU\linuxNetworkProgramming\WebSocket line: 1729
+Dir G:\Life_of_XDU\linuxNetworkProgramming line: 3607
+Dir G:\Life_of_XDU\Mysql_learning\.idea line: 0
+Dir G:\Life_of_XDU\Mysql_learning\.settings line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\.settings line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\src\main\java line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\src\main\resources line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\src\main line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\src\test\java line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\src\test line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\src line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\target\classes line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\target\test-classes line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01\target line: 0
+Dir G:\Life_of_XDU\Mysql_learning\Mysql_learning-01 line: 0
+Dir G:\Life_of_XDU\Mysql_learning line: 0
+Dir G:\Life_of_XDU\mysql_practice\databaseExperiment\Company line: 0
+Dir G:\Life_of_XDU\mysql_practice\databaseExperiment\studentManagement line: 0
+File: G:\Life_of_XDU\mysql_practice\databaseExperiment\tour\manipulate.cpp line: 564
+Dir G:\Life_of_XDU\mysql_practice\databaseExperiment\tour line: 564
+Dir G:\Life_of_XDU\mysql_practice\databaseExperiment\University line: 0
+Dir G:\Life_of_XDU\mysql_practice\databaseExperiment line: 564
+Dir G:\Life_of_XDU\mysql_practice line: 564
+File: G:\Life_of_XDU\mysql_win.cpp line: 585
+File: G:\Life_of_XDU\OiWiki_Learning\AVL\avl.cpp line: 162
+Dir G:\Life_of_XDU\OiWiki_Learning\AVL line: 162
+File: G:\Life_of_XDU\OiWiki_Learning\Binary_index_tree\二维_单点修改_区间查询.cpp line: 41
+File: G:\Life_of_XDU\OiWiki_Learning\Binary_index_tree\区间修改区间查询.cpp line: 57
+File: G:\Life_of_XDU\OiWiki_Learning\Binary_index_tree\区间修改单点查询.cpp line: 38
+File: G:\Life_of_XDU\OiWiki_Learning\Binary_index_tree\单点修改区间查询.cpp line: 34
+Dir G:\Life_of_XDU\OiWiki_Learning\Binary_index_tree line: 170
+File: G:\Life_of_XDU\OiWiki_Learning\boolFilter.cpp line: 90
+File: G:\Life_of_XDU\OiWiki_Learning\graph\最大流.cpp line: 64
+Dir G:\Life_of_XDU\OiWiki_Learning\graph line: 64
+File: G:\Life_of_XDU\OiWiki_Learning\heap（堆）\heap.cpp line: 39
+Dir G:\Life_of_XDU\OiWiki_Learning\heap（堆） line: 39
+File: G:\Life_of_XDU\OiWiki_Learning\ST表（sparse table）\P2880 [USACO07JAN]Balanced Lineup G.cpp line: 47
+File: G:\Life_of_XDU\OiWiki_Learning\ST表（sparse table）\P3865 【模板】ST表.cpp line: 56
+File: G:\Life_of_XDU\OiWiki_Learning\ST表（sparse table）\额外题目.cpp line: 28
+Dir G:\Life_of_XDU\OiWiki_Learning\ST表（sparse table） line: 131
+File: G:\Life_of_XDU\OiWiki_Learning\乘法逆元\#110. 乘法逆元.cpp line: 26
+File: G:\Life_of_XDU\OiWiki_Learning\乘法逆元\#161. 乘法逆元 2.cpp line: 34
+File: G:\Life_of_XDU\OiWiki_Learning\乘法逆元\求11111111111111.cpp line: 51
+Dir G:\Life_of_XDU\OiWiki_Learning\乘法逆元 line: 111
+File: G:\Life_of_XDU\OiWiki_Learning\前缀和\P3131 [USACO16JAN]Subsequences Summing to Sevens S.cpp line: 31
+File: G:\Life_of_XDU\OiWiki_Learning\前缀和\二维数组前缀和\P1387 最大正方形.cpp line: 43
+File: G:\Life_of_XDU\OiWiki_Learning\前缀和\二维数组前缀和\P2280 [HNOI2003]激光炸弹.cpp line: 34
+Dir G:\Life_of_XDU\OiWiki_Learning\前缀和\二维数组前缀和 line: 77
+File: G:\Life_of_XDU\OiWiki_Learning\前缀和\最大の和.cpp line: 28
+Dir G:\Life_of_XDU\OiWiki_Learning\前缀和 line: 136
+File: G:\Life_of_XDU\OiWiki_Learning\基环树.cpp line: 141
+File: G:\Life_of_XDU\OiWiki_Learning\快速幂\quickPow.cpp line: 18
+File: G:\Life_of_XDU\OiWiki_Learning\快速幂\quickPow.java line: 15
+Dir G:\Life_of_XDU\OiWiki_Learning\快速幂 line: 33
+File: G:\Life_of_XDU\OiWiki_Learning\数位dp\#10165. 「一本通 5.3 例 3」Windy 数.cpp line: 55
+File: G:\Life_of_XDU\OiWiki_Learning\数位dp\windy.cpp line: 27
+Dir G:\Life_of_XDU\OiWiki_Learning\数位dp line: 82
+File: G:\Life_of_XDU\OiWiki_Learning\树上问题\树中路径值的和-二进制连通集.cpp line: 111
+Dir G:\Life_of_XDU\OiWiki_Learning\树上问题 line: 111
+File: G:\Life_of_XDU\OiWiki_Learning\树形dp\P2014 [CTSC1997]选课.cpp line: 65
+File: G:\Life_of_XDU\OiWiki_Learning\树形dp\P2986 [USACO10MAR]Great Cow Gathering G.cpp line: 60
+File: G:\Life_of_XDU\OiWiki_Learning\树形dp\P3478 [POI2008]STA-Station.cpp line: 55
+File: G:\Life_of_XDU\OiWiki_Learning\树形dp\树上路径\computer.cpp line: 111
+File: G:\Life_of_XDU\OiWiki_Learning\树形dp\树上路径\经过直径的点.cpp line: 138
+Dir G:\Life_of_XDU\OiWiki_Learning\树形dp\树上路径 line: 249
+File: G:\Life_of_XDU\OiWiki_Learning\树形dp\没有上司的舞会.cpp line: 56
+Dir G:\Life_of_XDU\OiWiki_Learning\树形dp line: 485
+File: G:\Life_of_XDU\OiWiki_Learning\状态压缩\847. 访问所有节点的最短路径-BFS.cpp line: 43
+File: G:\Life_of_XDU\OiWiki_Learning\状态压缩\847. 访问所有节点的最短路径-状态压缩 copy.cpp line: 45
+File: G:\Life_of_XDU\OiWiki_Learning\状态压缩\互不侵犯.cpp line: 60
+File: G:\Life_of_XDU\OiWiki_Learning\状态压缩\互不侵犯_adv.cpp line: 53
+File: G:\Life_of_XDU\OiWiki_Learning\状态压缩\方格取数.cpp line: 55
+Dir G:\Life_of_XDU\OiWiki_Learning\状态压缩 line: 256
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\1235规划兼职工作.cpp line: 77
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\1235规划兼职工作动态规划.cpp line: 45
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\243. 一个简单的整数问题2.cpp line: 63
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\248. 统计比给定整数小的数的个数.cpp line: 53
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\5559. 得到山形数组的最少删除次数.cpp line: 79
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\714. 买卖股票的最佳时机含手续费.cpp line: 76
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\P3372 【模板】线段树 1 copy.cpp line: 92
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\P3372 【模板】线段树 1.cpp line: 71
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\P3372 【模板】线段树 1_2.cpp line: 75
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\P3373 【模板】线段树 2.cpp line: 75
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\P6242 【模板】线段树 3.cpp line: 16
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\temp.c line: 43
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\内存管理.cpp line: 131
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\区间最小数.cpp line: 46
+File: G:\Life_of_XDU\OiWiki_Learning\线段树\权值线段树.cpp line: 42
+Dir G:\Life_of_XDU\OiWiki_Learning\线段树 line: 984
+File: G:\Life_of_XDU\OiWiki_Learning\组合数相关\大逃离.cpp line: 84
+Dir G:\Life_of_XDU\OiWiki_Learning\组合数相关 line: 84
+File: G:\Life_of_XDU\OiWiki_Learning\背包问题\01背包.cpp line: 16
+File: G:\Life_of_XDU\OiWiki_Learning\背包问题\278. 数字组合.cpp line: 17
+File: G:\Life_of_XDU\OiWiki_Learning\背包问题\3. 完全背包问题.cpp line: 16
+File: G:\Life_of_XDU\OiWiki_Learning\背包问题\8. 二维费用的背包问题.cpp line: 20
+File: G:\Life_of_XDU\OiWiki_Learning\背包问题\P1853 投资的最大效益 copy.cpp line: 23
+File: G:\Life_of_XDU\OiWiki_Learning\背包问题\P1853 投资的最大效益.cpp line: 23
+Dir G:\Life_of_XDU\OiWiki_Learning\背包问题 line: 115
+File: G:\Life_of_XDU\OiWiki_Learning\贪心算法\P1209 [USACO1.3]修理牛棚 Barn Repair.cpp line: 92
+File: G:\Life_of_XDU\OiWiki_Learning\贪心算法\国王游戏.cpp line: 36
+File: G:\Life_of_XDU\OiWiki_Learning\贪心算法\工作调度.cpp line: 48
+Dir G:\Life_of_XDU\OiWiki_Learning\贪心算法 line: 176
+Dir G:\Life_of_XDU\OiWiki_Learning line: 3370
+File: G:\Life_of_XDU\PTA\advanced_level\1001.cpp line: 37
+File: G:\Life_of_XDU\PTA\advanced_level\1002.cpp line: 28
+File: G:\Life_of_XDU\PTA\advanced_level\1003.cpp line: 56
+File: G:\Life_of_XDU\PTA\advanced_level\1003_1.cpp line: 45
+File: G:\Life_of_XDU\PTA\advanced_level\1004.cpp line: 64
+File: G:\Life_of_XDU\PTA\advanced_level\1005.cpp line: 31
+File: G:\Life_of_XDU\PTA\advanced_level\1006.cpp line: 27
+File: G:\Life_of_XDU\PTA\advanced_level\1007.cpp line: 18
+File: G:\Life_of_XDU\PTA\advanced_level\1008.cpp line: 25
+File: G:\Life_of_XDU\PTA\advanced_level\1009.cpp line: 35
+File: G:\Life_of_XDU\PTA\advanced_level\1010.cpp line: 71
+File: G:\Life_of_XDU\PTA\advanced_level\1011.cpp line: 30
+File: G:\Life_of_XDU\PTA\advanced_level\1012.cpp line: 57
+File: G:\Life_of_XDU\PTA\advanced_level\1015.cpp line: 53
+File: G:\Life_of_XDU\PTA\advanced_level\1019.cpp line: 54
+File: G:\Life_of_XDU\PTA\advanced_level\1022.cpp line: 55
+File: G:\Life_of_XDU\PTA\advanced_level\1023.cpp line: 38
+File: G:\Life_of_XDU\PTA\advanced_level\1024.cpp line: 26
+File: G:\Life_of_XDU\PTA\advanced_level\1025.cpp line: 38
+File: G:\Life_of_XDU\PTA\advanced_level\1025_2.cpp line: 30
+File: G:\Life_of_XDU\PTA\advanced_level\1027.cpp line: 31
+File: G:\Life_of_XDU\PTA\advanced_level\1028.cpp line: 31
+File: G:\Life_of_XDU\PTA\advanced_level\1029.cpp line: 47
+File: G:\Life_of_XDU\PTA\advanced_level\1030.cpp line: 52
+File: G:\Life_of_XDU\PTA\advanced_level\1031.cpp line: 27
+File: G:\Life_of_XDU\PTA\advanced_level\1032.cpp line: 31
+File: G:\Life_of_XDU\PTA\advanced_level\1033.cpp line: 15
+File: G:\Life_of_XDU\PTA\advanced_level\1034.cpp line: 49
+File: G:\Life_of_XDU\PTA\advanced_level\1035.cpp line: 48
+File: G:\Life_of_XDU\PTA\advanced_level\1036.cpp line: 45
+File: G:\Life_of_XDU\PTA\advanced_level\1039.cpp line: 46
+File: G:\Life_of_XDU\PTA\advanced_level\1040.cpp line: 29
+File: G:\Life_of_XDU\PTA\advanced_level\1041.cpp line: 32
+File: G:\Life_of_XDU\PTA\advanced_level\1042.cpp line: 31
+File: G:\Life_of_XDU\PTA\advanced_level\1044.cpp line: 53
+File: G:\Life_of_XDU\PTA\advanced_level\1044_2.cpp line: 41
+File: G:\Life_of_XDU\PTA\advanced_level\1045.cpp line: 47
+File: G:\Life_of_XDU\PTA\advanced_level\1046.cpp line: 27
+File: G:\Life_of_XDU\PTA\advanced_level\1047.cpp line: 37
+File: G:\Life_of_XDU\PTA\advanced_level\1048.cpp line: 24
+File: G:\Life_of_XDU\PTA\advanced_level\1050.cpp line: 19
+File: G:\Life_of_XDU\PTA\advanced_level\1051.cpp line: 55
+File: G:\Life_of_XDU\PTA\advanced_level\1052.cpp line: 36
+File: G:\Life_of_XDU\PTA\advanced_level\1053.cpp line: 56
+File: G:\Life_of_XDU\PTA\advanced_level\1054.cpp line: 32
+File: G:\Life_of_XDU\PTA\advanced_level\1055.cpp line: 59
+File: G:\Life_of_XDU\PTA\advanced_level\1056.cpp line: 110
+File: G:\Life_of_XDU\PTA\advanced_level\1057.cpp line: 58
+File: G:\Life_of_XDU\PTA\advanced_level\1058 (2).cpp line: 26
+File: G:\Life_of_XDU\PTA\advanced_level\1058.cpp line: 14
+File: G:\Life_of_XDU\PTA\advanced_level\1059.cpp line: 61
+File: G:\Life_of_XDU\PTA\advanced_level\1060.cpp line: 54
+File: G:\Life_of_XDU\PTA\advanced_level\1062.cpp line: 45
+File: G:\Life_of_XDU\PTA\advanced_level\1063.cpp line: 41
+File: G:\Life_of_XDU\PTA\advanced_level\1064.cpp line: 77
+File: G:\Life_of_XDU\PTA\advanced_level\1065.cpp line: 24
+File: G:\Life_of_XDU\PTA\advanced_level\1068.cpp line: 35
+File: G:\Life_of_XDU\PTA\advanced_level\1074.cpp line: 41
+File: G:\Life_of_XDU\PTA\advanced_level\1075.cpp line: 19
+File: G:\Life_of_XDU\PTA\advanced_level\1077.cpp line: 42
+File: G:\Life_of_XDU\PTA\advanced_level\1079.cpp line: 54
+File: G:\Life_of_XDU\PTA\advanced_level\1080.cpp line: 71
+File: G:\Life_of_XDU\PTA\advanced_level\1083.cpp line: 33
+File: G:\Life_of_XDU\PTA\advanced_level\1087.cpp line: 75
+File: G:\Life_of_XDU\PTA\advanced_level\1091.cpp line: 67
+File: G:\Life_of_XDU\PTA\advanced_level\1092.cpp line: 40
+File: G:\Life_of_XDU\PTA\advanced_level\1094.cpp line: 71
+File: G:\Life_of_XDU\PTA\advanced_level\1095.cpp line: 117
+File: G:\Life_of_XDU\PTA\advanced_level\1095_2.cpp line: 47
+File: G:\Life_of_XDU\PTA\advanced_level\1095_3.cpp line: 51
+File: G:\Life_of_XDU\PTA\advanced_level\1097.cpp line: 34
+File: G:\Life_of_XDU\PTA\advanced_level\1107.cpp line: 63
+File: G:\Life_of_XDU\PTA\advanced_level\1118.cpp line: 59
+File: G:\Life_of_XDU\PTA\advanced_level\1122.cpp line: 90
+File: G:\Life_of_XDU\PTA\advanced_level\1126.cpp line: 94
+File: G:\Life_of_XDU\PTA\advanced_level\1127.cpp line: 35
+File: G:\Life_of_XDU\PTA\advanced_level\1128.cpp line: 0
+File: G:\Life_of_XDU\PTA\advanced_level\1129.cpp line: 43
+File: G:\Life_of_XDU\PTA\advanced_level\1131.cpp line: 13
+File: G:\Life_of_XDU\PTA\advanced_level\1132.cpp line: 0
+File: G:\Life_of_XDU\PTA\advanced_level\1144.cpp line: 21
+File: G:\Life_of_XDU\PTA\advanced_level\1146.cpp line: 46
+File: G:\Life_of_XDU\PTA\advanced_level\1149.cpp line: 48
+File: G:\Life_of_XDU\PTA\advanced_level\1150.cpp line: 59
+File: G:\Life_of_XDU\PTA\advanced_level\1152.cpp line: 37
+File: G:\Life_of_XDU\PTA\advanced_level\fi.cpp line: 19
+File: G:\Life_of_XDU\PTA\advanced_level\Floy.cpp line: 40
+File: G:\Life_of_XDU\PTA\advanced_level\temp.cpp line: 0
+Dir G:\Life_of_XDU\PTA\advanced_level line: 3792
+File: G:\Life_of_XDU\PTA\basic\6_1.cpp line: 17
+File: G:\Life_of_XDU\PTA\basic\6_10 _c.cpp line: 46
+File: G:\Life_of_XDU\PTA\basic\6_10.cpp line: 46
+File: G:\Life_of_XDU\PTA\basic\6_11.cpp line: 47
+File: G:\Life_of_XDU\PTA\basic\6_13.cpp line: 52
+File: G:\Life_of_XDU\PTA\basic\6_2.cpp line: 25
+File: G:\Life_of_XDU\PTA\basic\6_3.cpp line: 23
+File: G:\Life_of_XDU\PTA\basic\6_4.cpp line: 25
+File: G:\Life_of_XDU\PTA\basic\6_5.cpp line: 27
+File: G:\Life_of_XDU\PTA\basic\6_6.cpp line: 44
+File: G:\Life_of_XDU\PTA\basic\6_7.cpp line: 49
+File: G:\Life_of_XDU\PTA\basic\6_8.cpp line: 27
+File: G:\Life_of_XDU\PTA\basic\6_9.cpp line: 24
+File: G:\Life_of_XDU\PTA\basic\7-8.cpp line: 11
+File: G:\Life_of_XDU\PTA\basic\7.11.cpp line: 65
+File: G:\Life_of_XDU\PTA\basic\7_1.cpp line: 11
+File: G:\Life_of_XDU\PTA\basic\7_10.cpp line: 25
+File: G:\Life_of_XDU\PTA\basic\7_12.cpp line: 32
+File: G:\Life_of_XDU\PTA\basic\7_13.cpp line: 29
+File: G:\Life_of_XDU\PTA\basic\7_14.cpp line: 20
+File: G:\Life_of_XDU\PTA\basic\7_15.cpp line: 30
+File: G:\Life_of_XDU\PTA\basic\7_17.cpp line: 15
+File: G:\Life_of_XDU\PTA\basic\7_18.cpp line: 37
+File: G:\Life_of_XDU\PTA\basic\7_19.cpp line: 24
+File: G:\Life_of_XDU\PTA\basic\7_2.cpp line: 25
+File: G:\Life_of_XDU\PTA\basic\7_20.cpp line: 13
+File: G:\Life_of_XDU\PTA\basic\7_21.cpp line: 18
+File: G:\Life_of_XDU\PTA\basic\7_22.cpp line: 32
+File: G:\Life_of_XDU\PTA\basic\7_23.cpp line: 49
+File: G:\Life_of_XDU\PTA\basic\7_24.cpp line: 29
+File: G:\Life_of_XDU\PTA\basic\7_25.cpp line: 17
+File: G:\Life_of_XDU\PTA\basic\7_26.cpp line: 38
+File: G:\Life_of_XDU\PTA\basic\7_27.cpp line: 42
+File: G:\Life_of_XDU\PTA\basic\7_28.cpp line: 32
+File: G:\Life_of_XDU\PTA\basic\7_29.cpp line: 36
+File: G:\Life_of_XDU\PTA\basic\7_3.cpp line: 12
+File: G:\Life_of_XDU\PTA\basic\7_31.cpp line: 26
+File: G:\Life_of_XDU\PTA\basic\7_32.cpp line: 0
+File: G:\Life_of_XDU\PTA\basic\7_33.cpp line: 59
+File: G:\Life_of_XDU\PTA\basic\7_34.cpp line: 35
+File: G:\Life_of_XDU\PTA\basic\7_35.cpp line: 57
+File: G:\Life_of_XDU\PTA\basic\7_36.cpp line: 48
+File: G:\Life_of_XDU\PTA\basic\7_38.cpp line: 53
+File: G:\Life_of_XDU\PTA\basic\7_38_2.cpp line: 33
+File: G:\Life_of_XDU\PTA\basic\7_38_3.cpp line: 28
+File: G:\Life_of_XDU\PTA\basic\7_5.cpp line: 9
+File: G:\Life_of_XDU\PTA\basic\7_6.cpp line: 9
+File: G:\Life_of_XDU\PTA\basic\7_7.cpp line: 16
+File: G:\Life_of_XDU\PTA\basic\7_9 - 副本.cpp line: 11
+File: G:\Life_of_XDU\PTA\basic\7_9.cpp line: 13
+Dir G:\Life_of_XDU\PTA\basic line: 1491
+File: G:\Life_of_XDU\PTA\Basic_Level\1002.cpp line: 29
+File: G:\Life_of_XDU\PTA\Basic_Level\1004.cpp line: 26
+File: G:\Life_of_XDU\PTA\Basic_Level\1005.cpp line: 48
+File: G:\Life_of_XDU\PTA\Basic_Level\1006.cpp line: 24
+File: G:\Life_of_XDU\PTA\Basic_Level\1007.cpp line: 35
+File: G:\Life_of_XDU\PTA\Basic_Level\1008.cpp line: 31
+File: G:\Life_of_XDU\PTA\Basic_Level\1009.cpp line: 39
+File: G:\Life_of_XDU\PTA\Basic_Level\1009_2.cpp line: 21
+File: G:\Life_of_XDU\PTA\Basic_Level\1010.cpp line: 43
+File: G:\Life_of_XDU\PTA\Basic_Level\1011.cpp line: 22
+File: G:\Life_of_XDU\PTA\Basic_Level\1012.cpp line: 59
+File: G:\Life_of_XDU\PTA\Basic_Level\1013.cpp line: 43
+File: G:\Life_of_XDU\PTA\Basic_Level\1014.cpp line: 60
+File: G:\Life_of_XDU\PTA\Basic_Level\1015.cpp line: 45
+File: G:\Life_of_XDU\PTA\Basic_Level\1016.cpp line: 29
+File: G:\Life_of_XDU\PTA\Basic_Level\1017 (2).cpp line: 0
+File: G:\Life_of_XDU\PTA\Basic_Level\1017.cpp line: 86
+File: G:\Life_of_XDU\PTA\Basic_Level\1017_3.cpp line: 46
+File: G:\Life_of_XDU\PTA\Basic_Level\1018.cpp line: 46
+File: G:\Life_of_XDU\PTA\Basic_Level\1019.cpp line: 58
+File: G:\Life_of_XDU\PTA\Basic_Level\1020.cpp line: 40
+File: G:\Life_of_XDU\PTA\Basic_Level\1021.cpp line: 18
+File: G:\Life_of_XDU\PTA\Basic_Level\1022.cpp line: 20
+File: G:\Life_of_XDU\PTA\Basic_Level\1023.cpp line: 39
+File: G:\Life_of_XDU\PTA\Basic_Level\1024.cpp line: 23
+File: G:\Life_of_XDU\PTA\Basic_Level\1025.cpp line: 41
+File: G:\Life_of_XDU\PTA\Basic_Level\1026.cpp line: 31
+File: G:\Life_of_XDU\PTA\Basic_Level\1027.cpp line: 36
+File: G:\Life_of_XDU\PTA\Basic_Level\1028 (2).cpp line: 29
+File: G:\Life_of_XDU\PTA\Basic_Level\1028.cpp line: 80
+File: G:\Life_of_XDU\PTA\Basic_Level\1029.cpp line: 28
+File: G:\Life_of_XDU\PTA\Basic_Level\1030.cpp line: 35
+File: G:\Life_of_XDU\PTA\Basic_Level\1031.cpp line: 41
+File: G:\Life_of_XDU\PTA\Basic_Level\1032.cpp line: 33
+File: G:\Life_of_XDU\PTA\Basic_Level\1033.cpp line: 26
+File: G:\Life_of_XDU\PTA\Basic_Level\1036.cpp line: 27
+File: G:\Life_of_XDU\PTA\Basic_Level\1037.cpp line: 32
+File: G:\Life_of_XDU\PTA\Basic_Level\1038.cpp line: 27
+File: G:\Life_of_XDU\PTA\Basic_Level\1039.cpp line: 40
+File: G:\Life_of_XDU\PTA\Basic_Level\1040.cpp line: 41
+File: G:\Life_of_XDU\PTA\Basic_Level\1041.cpp line: 36
+File: G:\Life_of_XDU\PTA\Basic_Level\1042.cpp line: 30
+File: G:\Life_of_XDU\PTA\Basic_Level\1043.cpp line: 34
+File: G:\Life_of_XDU\PTA\Basic_Level\1044.cpp line: 0
+File: G:\Life_of_XDU\PTA\Basic_Level\1046.cpp line: 30
+File: G:\Life_of_XDU\PTA\Basic_Level\1047.cpp line: 30
+File: G:\Life_of_XDU\PTA\Basic_Level\1048.cpp line: 51
+File: G:\Life_of_XDU\PTA\Basic_Level\1049.cpp line: 19
+File: G:\Life_of_XDU\PTA\Basic_Level\1051.cpp line: 44
+File: G:\Life_of_XDU\PTA\Basic_Level\1052.cpp line: 38
+File: G:\Life_of_XDU\PTA\Basic_Level\1053.cpp line: 40
+File: G:\Life_of_XDU\PTA\Basic_Level\1054.cpp line: 81
+File: G:\Life_of_XDU\PTA\Basic_Level\1056.cpp line: 34
+File: G:\Life_of_XDU\PTA\Basic_Level\1057.cpp line: 38
+File: G:\Life_of_XDU\PTA\Basic_Level\1059.cpp line: 65
+File: G:\Life_of_XDU\PTA\Basic_Level\1060.cpp line: 26
+File: G:\Life_of_XDU\PTA\Basic_Level\1061.cpp line: 33
+File: G:\Life_of_XDU\PTA\Basic_Level\1063.cpp line: 0
+File: G:\Life_of_XDU\PTA\Basic_Level\1064.cpp line: 33
+File: G:\Life_of_XDU\PTA\Basic_Level\1065.cpp line: 64
+File: G:\Life_of_XDU\PTA\Basic_Level\1066.cpp line: 29
+File: G:\Life_of_XDU\PTA\Basic_Level\1067.cpp line: 41
+File: G:\Life_of_XDU\PTA\Basic_Level\1069.cpp line: 35
+File: G:\Life_of_XDU\PTA\Basic_Level\1070.cpp line: 29
+File: G:\Life_of_XDU\PTA\Basic_Level\1071.cpp line: 28
+File: G:\Life_of_XDU\PTA\Basic_Level\1072.cpp line: 43
+File: G:\Life_of_XDU\PTA\Basic_Level\1074.cpp line: 21
+File: G:\Life_of_XDU\PTA\Basic_Level\1075.cpp line: 43
+File: G:\Life_of_XDU\PTA\Basic_Level\1076.cpp line: 26
+File: G:\Life_of_XDU\PTA\Basic_Level\1077.cpp line: 49
+File: G:\Life_of_XDU\PTA\Basic_Level\1078.cpp line: 69
+File: G:\Life_of_XDU\PTA\Basic_Level\1079.cpp line: 75
+File: G:\Life_of_XDU\PTA\Basic_Level\1080.cpp line: 60
+File: G:\Life_of_XDU\PTA\Basic_Level\1080_2.cpp line: 59
+File: G:\Life_of_XDU\PTA\Basic_Level\1081.cpp line: 47
+File: G:\Life_of_XDU\PTA\Basic_Level\1082.cpp line: 34
+File: G:\Life_of_XDU\PTA\Basic_Level\1083.cpp line: 28
+File: G:\Life_of_XDU\PTA\Basic_Level\1084.cpp line: 50
+File: G:\Life_of_XDU\PTA\Basic_Level\1085.cpp line: 70
+File: G:\Life_of_XDU\PTA\Basic_Level\1086.cpp line: 19
+File: G:\Life_of_XDU\PTA\Basic_Level\1087.cpp line: 20
+File: G:\Life_of_XDU\PTA\Basic_Level\1088.cpp line: 50
+File: G:\Life_of_XDU\PTA\Basic_Level\1090.cpp line: 108
+File: G:\Life_of_XDU\PTA\Basic_Level\1090_2.cpp line: 46
+File: G:\Life_of_XDU\PTA\Basic_Level\1090_3.cpp line: 39
+File: G:\Life_of_XDU\PTA\Basic_Level\1091.cpp line: 45
+File: G:\Life_of_XDU\PTA\Basic_Level\1092.cpp line: 48
+File: G:\Life_of_XDU\PTA\Basic_Level\1093.cpp line: 23
+File: G:\Life_of_XDU\PTA\Basic_Level\1094.cpp line: 43
+File: G:\Life_of_XDU\PTA\Basic_Level\a1001.cpp line: 17
+File: G:\Life_of_XDU\PTA\Basic_Level\int.cpp line: 24
+File: G:\Life_of_XDU\PTA\Basic_Level\lll.cpp line: 70
+File: G:\Life_of_XDU\PTA\Basic_Level\map\find.cpp line: 15
+Dir G:\Life_of_XDU\PTA\Basic_Level\map line: 15
+File: G:\Life_of_XDU\PTA\Basic_Level\test.cpp line: 23
+File: G:\Life_of_XDU\PTA\Basic_Level\yyy.cpp line: 21
+Dir G:\Life_of_XDU\PTA\Basic_Level line: 3650
+File: G:\Life_of_XDU\PTA\data_structure\6_1.cpp line: 40
+File: G:\Life_of_XDU\PTA\data_structure\6_10.cpp line: 45
+File: G:\Life_of_XDU\PTA\data_structure\6_11.cpp line: 34
+File: G:\Life_of_XDU\PTA\data_structure\6_3.cpp line: 30
+File: G:\Life_of_XDU\PTA\data_structure\6_8.cpp line: 29
+File: G:\Life_of_XDU\PTA\data_structure\7_17.cpp line: 55
+File: G:\Life_of_XDU\PTA\data_structure\7_19.cpp line: 41
+File: G:\Life_of_XDU\PTA\data_structure\7_19_2.cpp line: 49
+Dir G:\Life_of_XDU\PTA\data_structure line: 323
+File: G:\Life_of_XDU\PTA\PAT2020年冬季甲级\1.cpp line: 29
+File: G:\Life_of_XDU\PTA\PAT2020年冬季甲级\2.cpp line: 26
+File: G:\Life_of_XDU\PTA\PAT2020年冬季甲级\3.cpp line: 70
+File: G:\Life_of_XDU\PTA\PAT2020年冬季甲级\4.cpp line: 116
+Dir G:\Life_of_XDU\PTA\PAT2020年冬季甲级 line: 241
+File: G:\Life_of_XDU\PTA\test\a.cpp line: 92
+File: G:\Life_of_XDU\PTA\test\D.cpp line: 77
+File: G:\Life_of_XDU\PTA\test\exp.cpp line: 100
+File: G:\Life_of_XDU\PTA\test\explorer.cpp line: 93
+File: G:\Life_of_XDU\PTA\test\F.cpp line: 18
+File: G:\Life_of_XDU\PTA\test\generate.cpp line: 22
+File: G:\Life_of_XDU\PTA\test\Intelligent Warehouse.cpp line: 66
+File: G:\Life_of_XDU\PTA\test\ipc copy.cpp line: 64
+File: G:\Life_of_XDU\PTA\test\router.cpp line: 50
+File: G:\Life_of_XDU\PTA\test\stack.cpp line: 54
+File: G:\Life_of_XDU\PTA\test\test.cpp line: 180
+File: G:\Life_of_XDU\PTA\test\vector.cpp line: 106
+File: G:\Life_of_XDU\PTA\test\walking_machine.cpp line: 59
+Dir G:\Life_of_XDU\PTA\test line: 981
+File: G:\Life_of_XDU\PTA\乙级模拟考试\7_1.cpp line: 32
+File: G:\Life_of_XDU\PTA\乙级模拟考试\7_2.cpp line: 27
+File: G:\Life_of_XDU\PTA\乙级模拟考试\7_3.cpp line: 29
+File: G:\Life_of_XDU\PTA\乙级模拟考试\7_3test.cpp line: 14
+File: G:\Life_of_XDU\PTA\乙级模拟考试\7_4.cpp line: 96
+File: G:\Life_of_XDU\PTA\乙级模拟考试\7_5.cpp line: 53
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年冬季考试\7-1 2019数列 (15分).cpp line: 20
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年冬季考试\7-2 老鼠爱大米 (20分).cpp line: 26
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年冬季考试\7-3 String复读机 (20分).cpp line: 31
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年冬季考试\7-4 擅长C (20分).cpp line: 45
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年冬季考试\7-5 区块反转 (25分).cpp line: 37
+Dir G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年冬季考试 line: 159
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试\11.cpp line: 32
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试\7_1 (2).cpp line: 0
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试\7_1.cpp line: 42
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试\7_2.cpp line: 31
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试\7_4.cpp line: 10
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试\7_5.cpp line: 59
+Dir G:\Life_of_XDU\PTA\乙级模拟考试\PAT（乙级）2019年春季考试 line: 174
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年春季考试\7-1 Sexy Primes (20分).cpp line: 51
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年春季考试\7-2 Anniversary (25分).cpp line: 39
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年春季考试\7-3 Telefraud Detection (25分).cpp line: 70
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年春季考试\7-4 Structure of a Binary Tree (30分).cpp line: 134
+Dir G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年春季考试 line: 294
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年秋季考试\7-1 Forever (20分).cpp line: 8
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年秋季考试\7-2 Merging Linked Lists (25分).cpp line: 39
+File: G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年秋季考试\7-3 Postfix Expression (25分).cpp line: 59
+Dir G:\Life_of_XDU\PTA\乙级模拟考试\PAT（甲级）2019年秋季考试 line: 106
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2016年考研复试上机模拟练习\A Stucked Keyboard (20分).cpp line: 53
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2016年考研复试上机模拟练习\B Integer Set Partition (25分).cpp line: 21
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2016年考研复试上机模拟练习\C Family Property (25分).cpp line: 73
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2016年考研复试上机模拟练习\D Counting Nodes in a BST (30分).cpp line: 51
+Dir G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2016年考研复试上机模拟练习 line: 198
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2019年保研上机模拟练习\7-1 Happy Numbers (20分).cpp line: 39
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2019年保研上机模拟练习\7-2 Zigzag Sequence (25分).cpp line: 51
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2019年保研上机模拟练习\7-3 Is It An AVL Tree (25分).cpp line: 43
+File: G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2019年保研上机模拟练习\7-4 Index of Popularity (30分).cpp line: 57
+Dir G:\Life_of_XDU\PTA\乙级模拟考试\浙江大学计算机与软件学院2019年保研上机模拟练习 line: 190
+Dir G:\Life_of_XDU\PTA\乙级模拟考试 line: 1372
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\1026.cpp line: 35
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-002 打印沙漏 (20分).cpp line: 39
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-010.cpp line: 15
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-012.cpp line: 30
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-016 查验身份证 (15分).cpp line: 37
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-028.cpp line: 40
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-031 到底是不是太胖了 (10分).cpp line: 22
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-033 出生年 (15分).cpp line: 35
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-035 情人节 (15分).cpp line: 37
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-043 阅览室 (20分).cpp line: 46
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-049 天梯赛座位分配 (20分).cpp line: 41
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-054 福到了 (15分).cpp line: 47
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-056 猜数字 (20分).cpp line: 32
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-058 6翻了 (15分).cpp line: 27
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-059 敲笨钟 (20分).cpp line: 21
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L1-062 幸运彩票 (15分).cpp line: 27
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-002 链表去重 (25分).cpp line: 40
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-004 这是二叉搜索树吗？ (25分).cpp line: 84
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-006.cpp line: 0
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-007 家庭房产 (25分).cpp line: 90
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-009 抢红包 (25分).cpp line: 61
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-010 排座位 (25分).cpp line: 48
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-011 玩转二叉树 (25分).cpp line: 62
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-012 关于堆的判断 (25分)_1.cpp line: 69
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-012 关于堆的判断 (25分)_2.cpp line: 67
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-013 红色警报 (25分) copy.cpp line: 62
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-013 红色警报 (25分).cpp line: 54
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-016 愿天下有情人都是失散多年的兄妹 (25分).cpp line: 71
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-020 功夫传人 (25分).cpp line: 70
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-021 点赞狂魔 (25分).cpp line: 73
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-022 重排链表 (25分).cpp line: 39
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-024 部落 (25分).cpp line: 62
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-024 部落 (25分)_adv.cpp line: 56
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-024 部落 (25分)_adv2.cpp line: 55
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-025 分而治之 (25分).cpp line: 63
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-026 小字辈 (25分)-超时.cpp line: 43
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-026 小字辈 (25分).cpp line: 58
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-027 名人堂与代金券 (25分).cpp line: 63
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-027_char.cpp line: 55
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-028 秀恩爱分得快 (25分).cpp line: 90
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-029 特立独行的幸福 (25分).cpp line: 53
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-031 深入虎穴 (25分).cpp line: 60
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L2-032 彩虹瓶 (25分).cpp line: 47
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-004 肿瘤诊断 (30分).cpp line: 64
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-005 垃圾箱分布 (30分).cpp line: 120
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-007 天梯地图 (30分).cpp line: 145
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-008 喊山 (30分).cpp line: 66
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-010 是否完全二叉搜索树 (30分).cpp line: 79
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-011 直捣黄龙 (30分).cpp line: 121
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-012 水果忍者 (30分) copy.cpp line: 67
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-012 水果忍者 (30分).cpp line: 87
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-014 周游世界 (30分) copy 2.cpp line: 127
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-014 周游世界 (30分) copy.cpp line: 128
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-014 周游世界 (30分).cpp line: 129
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-015 球队“食物链” (30分).cpp line: 55
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-018 森森美图 (30分).cpp line: 75
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-021 神坛 (30分).cpp line: 56
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\L3-022 地铁一日游 (30分).cpp line: 77
+File: G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集\t.cpp line: 74
+Dir G:\Life_of_XDU\PTA\团体程序设计天梯赛-练习集 line: 3596
+File: G:\Life_of_XDU\PTA\数据结构作业题\7-2 两个有序链表序列的合并 (20分).cpp line: 71
+File: G:\Life_of_XDU\PTA\数据结构作业题\7-4 链表去重 (25分).c line: 57
+File: G:\Life_of_XDU\PTA\数据结构作业题\7-6 列车调度 (25分).cpp line: 0
+File: G:\Life_of_XDU\PTA\数据结构作业题\7-7 表达式转换 (25分).cpp line: 39
+File: G:\Life_of_XDU\PTA\数据结构作业题\7-8 符号配对 (20分).c line: 59
+Dir G:\Life_of_XDU\PTA\数据结构作业题 line: 226
+File: G:\Life_of_XDU\PTA\浙大版《C语言程序设计（第3版）》题目集\9_5.cpp line: 29
+Dir G:\Life_of_XDU\PTA\浙大版《C语言程序设计（第3版）》题目集 line: 29
+File: G:\Life_of_XDU\PTA\顶级\1001 Battle Over Cities - Hard Version (35分).cpp line: 73
+File: G:\Life_of_XDU\PTA\顶级\1002 Business (35分).cpp line: 31
+Dir G:\Life_of_XDU\PTA\顶级 line: 104
+Dir G:\Life_of_XDU\PTA line: 15805
+File: G:\Life_of_XDU\temp\lc219\lc.java line: 37
+File: G:\Life_of_XDU\temp\lc219\lc218.cpp line: 38
+File: G:\Life_of_XDU\temp\lc219\lc221.cpp line: 125
+File: G:\Life_of_XDU\temp\lc219\m.cpp line: 57
+Dir G:\Life_of_XDU\temp\lc219 line: 257
+File: G:\Life_of_XDU\temp\牛客\1 copy.cpp line: 77
+File: G:\Life_of_XDU\temp\牛客\1.cpp line: 65
+File: G:\Life_of_XDU\temp\牛客\2.cpp line: 75
+File: G:\Life_of_XDU\temp\牛客\3.cpp line: 0
+Dir G:\Life_of_XDU\temp\牛客 line: 217
+File: G:\Life_of_XDU\temp\算法\p1.cpp line: 57
+File: G:\Life_of_XDU\temp\算法\p23.cpp line: 73
+File: G:\Life_of_XDU\temp\算法\p4.cpp line: 24
+File: G:\Life_of_XDU\temp\算法\p5_dij.cpp line: 84
+Dir G:\Life_of_XDU\temp\算法 line: 238
+Dir G:\Life_of_XDU\temp line: 712
+Dir G:\Life_of_XDU line: 34125

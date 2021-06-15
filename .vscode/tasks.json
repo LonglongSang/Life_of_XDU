@@ -64,7 +64,9 @@
             "label": "java compile",
             "command": "javac",
             "args": [
+                "-encoding UTF-8",
                 "${file}"
+                
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

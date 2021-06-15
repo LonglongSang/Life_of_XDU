@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="__servlet_04" />
+        <module name="__servlet_02" />
+        <module name="__servlet_03" />
+        <module name="__servlet_05_cookie_session" />
+        <module name="patient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="__servlet_01" target="1.7" />
+      <module name="database" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

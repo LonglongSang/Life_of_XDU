@@ -10,7 +10,7 @@
 			"uri": "vscode-remote://ssh-remote+139.224.42.20/root/networkProgramming"
 		},
 		{
-			"uri": "vscode-remote://ssh-remote+139.224.42.20/root/networkProgramming/package"
+			"uri": "vscode-remote://ssh-remote+139.224.42.20/root/networkProgramming/Websocket"
 		}
 	],
 	"remoteAuthority": "ssh-remote+139.224.42.20",

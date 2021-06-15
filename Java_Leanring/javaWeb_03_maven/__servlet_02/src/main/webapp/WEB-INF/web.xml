@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>template_para</param-name>
+    <param-value>this is a template_para content</param-value>
+  </context-param>
+
+  <servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>com.sang.serlet02.__00_hello</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>database</servlet-name>
+    <servlet-class>com.sang.serlet02.database</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>contextParam</servlet-name>
+    <servlet-class>com.sang.serlet02.__01_contextParam</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>dispatcher</servlet-name>
+    <servlet-class>com.sang.serlet02.__02_dispatcher</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>temp</servlet-name>
+    <servlet-class>com.sang.serlet02.__04_temp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>properities</servlet-name>
+    <servlet-class>com.sang.serlet02.__03_properities</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>contextParam</servlet-name>
+    <url-pattern>/contextParam/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>database</servlet-name>
+    <url-pattern>/database</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>dispatcher</servlet-name>
+    <url-pattern>/dispatcher</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>temp</servlet-name>
+    <url-pattern>/temp/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>properities</servlet-name>
+    <url-pattern>/properities/*</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://ssh-remote+121.5.18.13/root"
+		},
+		{
+			"uri": "vscode-remote://ssh-remote+121.5.18.13/root/networkProgramming"
+		},
+		{
+			"uri": "vscode-remote://ssh-remote+121.5.18.13/"
+		}
+	],
+	"remoteAuthority": "ssh-remote+121.5.18.13",
+	"settings": {}
+}

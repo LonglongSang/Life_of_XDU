@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/__servlet_01" />
+    <file type="web" url="file://$PROJECT_DIR$/__servlet_02" />
+    <file type="web" url="file://$PROJECT_DIR$/__servlet_03" />
+    <file type="web" url="file://$PROJECT_DIR$/__servlet_04" />
+    <file type="web" url="file://$PROJECT_DIR$/__servlet_05_cookie_session" />
+    <file type="web" url="file://$PROJECT_DIR$/patient" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/__servlet_01/pom.xml" />
+        <option value="$PROJECT_DIR$/database/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
